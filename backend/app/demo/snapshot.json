@@ -1,0 +1,7127 @@
+{
+ "taken_at": "2026-10-21T00:10:28.131668+00:00",
+ "odoo": {
+  "stock.quant": [
+   {
+    "id": 1,
+    "product_id": [
+     30,
+     "[FURN_0789] Individual Workplace"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 16.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 2,
+    "product_id": [
+     18,
+     "[E-COM08] Storage Box"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 18.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 3,
+    "product_id": [
+     17,
+     "[E-COM07] Large Cabinet"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 500.0,
+    "reserved_quantity": 230.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:09:12",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 4,
+    "product_id": [
+     20,
+     "[E-COM10] Pedal Bin"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 22.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 5,
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 33.0,
+    "reserved_quantity": 15.0,
+    "inventory_quantity": 12.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:28",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 6,
+    "product_id": [
+     23,
+     "[E-COM12] Conference Chair (Steel)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 26.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 7,
+    "product_id": [
+     24,
+     "[E-COM13] Conference Chair (Aluminium)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 30.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 8,
+    "product_id": [
+     12,
+     "[FURN_0096] Customizable Desk (Steel, White)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 45.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 9,
+    "product_id": [
+     13,
+     "[FURN_0097] Customizable Desk (Steel, Black)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 50.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 10,
+    "product_id": [
+     14,
+     "[FURN_0098] Customizable Desk (Aluminium, White)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 55.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 11,
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 10.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 6.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:28",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 12,
+    "product_id": [
+     26,
+     "[FURN_1118] Corner Desk Left Sit"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 2.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 13,
+    "product_id": [
+     32,
+     "[FURN_8855] Drawer"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 80.0,
+    "reserved_quantity": 15.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 14,
+    "product_id": [
+     8,
+     "[FURN_7800] Desk Combination"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 60.0,
+    "reserved_quantity": 56.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:09:12",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 15,
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 16.0,
+    "reserved_quantity": 16.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:37:55",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 33,
+    "product_id": [
+     36,
+     "[FURN_5555] Cable Management Box"
+    ],
+    "location_id": [
+     17,
+     "WH/Stock/Shelf 2"
+    ],
+    "quantity": 50.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 34,
+    "product_id": [
+     36,
+     "[FURN_5555] Cable Management Box"
+    ],
+    "location_id": [
+     17,
+     "WH/Stock/Shelf 2"
+    ],
+    "quantity": 40.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:08:20",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 60,
+    "product_id": [
+     47,
+     "[DESK0005] Customizable Desk (Custom, White)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 65.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:37:55",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 61,
+    "product_id": [
+     48,
+     "[DESK0006] Customizable Desk (Custom, Black)"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 70.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-07 14:37:55",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 64,
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 94.0,
+    "reserved_quantity": 10.0,
+    "inventory_quantity": 85.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:22",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 66,
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 102.0,
+    "reserved_quantity": 7.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:00:50",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 68,
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 37.0,
+    "reserved_quantity": 4.0,
+    "inventory_quantity": 23.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:23",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 70,
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 83.0,
+    "reserved_quantity": 3.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:00:56",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 72,
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 112.0,
+    "reserved_quantity": 8.0,
+    "inventory_quantity": 110.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:25",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 74,
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 22.0,
+    "reserved_quantity": 10.0,
+    "inventory_quantity": 10.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:25",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 76,
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 62.0,
+    "reserved_quantity": 8.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:22",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 78,
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 135.0,
+    "reserved_quantity": 14.0,
+    "inventory_quantity": 83.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:26",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 80,
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 81.0,
+    "reserved_quantity": 4.0,
+    "inventory_quantity": 76.0,
+    "inventory_quantity_set": true,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:26",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 82,
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "location_id": [
+     8,
+     "WH/Stock"
+    ],
+    "quantity": 21.0,
+    "reserved_quantity": 11.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": "2026-10-07",
+    "write_date": "2026-10-20 23:01:01",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 84,
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "location_id": [
+     18,
+     "WH/Stock/Shelf 1"
+    ],
+    "quantity": 24.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 30.0,
+    "inventory_quantity_set": true,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:01:23",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 85,
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "location_id": [
+     18,
+     "WH/Stock/Shelf 1"
+    ],
+    "quantity": 30.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:00:51",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 86,
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "location_id": [
+     18,
+     "WH/Stock/Shelf 1"
+    ],
+    "quantity": 40.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:00:52",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 87,
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "location_id": [
+     17,
+     "WH/Stock/Shelf 2"
+    ],
+    "quantity": 20.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 28.0,
+    "inventory_quantity_set": true,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:01:26",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 88,
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "location_id": [
+     17,
+     "WH/Stock/Shelf 2"
+    ],
+    "quantity": 25.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:00:54",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 89,
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "location_id": [
+     17,
+     "WH/Stock/Shelf 2"
+    ],
+    "quantity": 80.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:00:55",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 90,
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "location_id": [
+     35,
+     "LFC/Stock"
+    ],
+    "quantity": 60.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 57.0,
+    "inventory_quantity_set": true,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:01:24",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 91,
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "location_id": [
+     35,
+     "LFC/Stock"
+    ],
+    "quantity": 20.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:00:58",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 92,
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "location_id": [
+     35,
+     "LFC/Stock"
+    ],
+    "quantity": 12.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 0.0,
+    "inventory_quantity_set": false,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:00:59",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   },
+   {
+    "id": 93,
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "location_id": [
+     35,
+     "LFC/Stock"
+    ],
+    "quantity": 20.0,
+    "reserved_quantity": 0.0,
+    "inventory_quantity": 27.0,
+    "inventory_quantity_set": true,
+    "last_count_date": false,
+    "write_date": "2026-10-20 23:01:27",
+    "owner_id": false,
+    "location_id.usage": "internal"
+   }
+  ],
+  "product.product": [
+   {
+    "id": 47,
+    "default_code": "DESK0005",
+    "name": "Customizable Desk",
+    "product_tmpl_id": [
+     9,
+     "Customizable Desk"
+    ]
+   },
+   {
+    "id": 48,
+    "default_code": "DESK0006",
+    "name": "Customizable Desk",
+    "product_tmpl_id": [
+     9,
+     "Customizable Desk"
+    ]
+   },
+   {
+    "id": 16,
+    "default_code": "E-COM06",
+    "name": "Corner Desk Right Sit",
+    "product_tmpl_id": [
+     10,
+     "[E-COM06] Corner Desk Right Sit"
+    ]
+   },
+   {
+    "id": 17,
+    "default_code": "E-COM07",
+    "name": "Large Cabinet",
+    "product_tmpl_id": [
+     11,
+     "[E-COM07] Large Cabinet"
+    ]
+   },
+   {
+    "id": 18,
+    "default_code": "E-COM08",
+    "name": "Storage Box",
+    "product_tmpl_id": [
+     12,
+     "[E-COM08] Storage Box"
+    ]
+   },
+   {
+    "id": 19,
+    "default_code": "E-COM09",
+    "name": "Large Desk",
+    "product_tmpl_id": [
+     13,
+     "[E-COM09] Large Desk"
+    ]
+   },
+   {
+    "id": 20,
+    "default_code": "E-COM10",
+    "name": "Pedal Bin",
+    "product_tmpl_id": [
+     14,
+     "[E-COM10] Pedal Bin"
+    ]
+   },
+   {
+    "id": 21,
+    "default_code": "E-COM11",
+    "name": "Cabinet with Doors",
+    "product_tmpl_id": [
+     15,
+     "[E-COM11] Cabinet with Doors"
+    ]
+   },
+   {
+    "id": 23,
+    "default_code": "E-COM12",
+    "name": "Conference Chair",
+    "product_tmpl_id": [
+     16,
+     "Conference Chair"
+    ]
+   },
+   {
+    "id": 24,
+    "default_code": "E-COM13",
+    "name": "Conference Chair",
+    "product_tmpl_id": [
+     16,
+     "Conference Chair"
+    ]
+   },
+   {
+    "id": 12,
+    "default_code": "FURN_0096",
+    "name": "Customizable Desk",
+    "product_tmpl_id": [
+     9,
+     "Customizable Desk"
+    ]
+   },
+   {
+    "id": 13,
+    "default_code": "FURN_0097",
+    "name": "Customizable Desk",
+    "product_tmpl_id": [
+     9,
+     "Customizable Desk"
+    ]
+   },
+   {
+    "id": 14,
+    "default_code": "FURN_0098",
+    "name": "Customizable Desk",
+    "product_tmpl_id": [
+     9,
+     "Customizable Desk"
+    ]
+   },
+   {
+    "id": 25,
+    "default_code": "FURN_0269",
+    "name": "Office Chair Black",
+    "product_tmpl_id": [
+     17,
+     "[FURN_0269] Office Chair Black"
+    ]
+   },
+   {
+    "id": 30,
+    "default_code": "FURN_0789",
+    "name": "Individual Workplace",
+    "product_tmpl_id": [
+     22,
+     "[FURN_0789] Individual Workplace"
+    ]
+   },
+   {
+    "id": 26,
+    "default_code": "FURN_1118",
+    "name": "Corner Desk Left Sit",
+    "product_tmpl_id": [
+     18,
+     "[FURN_1118] Corner Desk Left Sit"
+    ]
+   },
+   {
+    "id": 36,
+    "default_code": "FURN_5555",
+    "name": "Cable Management Box",
+    "product_tmpl_id": [
+     28,
+     "[FURN_5555] Cable Management Box"
+    ]
+   },
+   {
+    "id": 31,
+    "default_code": "FURN_6666",
+    "name": "Acoustic Bloc Screens",
+    "product_tmpl_id": [
+     23,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ]
+   },
+   {
+    "id": 34,
+    "default_code": "FURN_6741",
+    "name": "Large Meeting Table",
+    "product_tmpl_id": [
+     26,
+     "[FURN_6741] Large Meeting Table"
+    ]
+   },
+   {
+    "id": 5,
+    "default_code": "FURN_7777",
+    "name": "Office Chair",
+    "product_tmpl_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ]
+   },
+   {
+    "id": 8,
+    "default_code": "FURN_7800",
+    "name": "Desk Combination",
+    "product_tmpl_id": [
+     8,
+     "[FURN_7800] Desk Combination"
+    ]
+   },
+   {
+    "id": 29,
+    "default_code": "FURN_7888",
+    "name": "Desk Stand with Screen",
+    "product_tmpl_id": [
+     21,
+     "[FURN_7888] Desk Stand with Screen"
+    ]
+   },
+   {
+    "id": 33,
+    "default_code": "FURN_8220",
+    "name": "Four Person Desk",
+    "product_tmpl_id": [
+     25,
+     "[FURN_8220] Four Person Desk"
+    ]
+   },
+   {
+    "id": 32,
+    "default_code": "FURN_8855",
+    "name": "Drawer",
+    "product_tmpl_id": [
+     24,
+     "[FURN_8855] Drawer"
+    ]
+   },
+   {
+    "id": 6,
+    "default_code": "FURN_8888",
+    "name": "Office Lamp",
+    "product_tmpl_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ]
+   },
+   {
+    "id": 27,
+    "default_code": "FURN_8900",
+    "name": "Drawer Black",
+    "product_tmpl_id": [
+     19,
+     "[FURN_8900] Drawer Black"
+    ]
+   },
+   {
+    "id": 35,
+    "default_code": "FURN_8999",
+    "name": "Three-Seat Sofa",
+    "product_tmpl_id": [
+     27,
+     "[FURN_8999] Three-Seat Sofa"
+    ]
+   },
+   {
+    "id": 28,
+    "default_code": "FURN_9001",
+    "name": "Flipover",
+    "product_tmpl_id": [
+     20,
+     "[FURN_9001] Flipover"
+    ]
+   },
+   {
+    "id": 7,
+    "default_code": "FURN_9999",
+    "name": "Office Design Software",
+    "product_tmpl_id": [
+     7,
+     "[FURN_9999] Office Design Software"
+    ]
+   },
+   {
+    "id": 37,
+    "default_code": "GC-001",
+    "name": "Vitamin C Serum",
+    "product_tmpl_id": [
+     29,
+     "[GC-001] Vitamin C Serum"
+    ]
+   },
+   {
+    "id": 38,
+    "default_code": "GC-002",
+    "name": "Hydrating Face Cream",
+    "product_tmpl_id": [
+     30,
+     "[GC-002] Hydrating Face Cream"
+    ]
+   },
+   {
+    "id": 39,
+    "default_code": "GC-003",
+    "name": "SPF 50 Sunscreen",
+    "product_tmpl_id": [
+     31,
+     "[GC-003] SPF 50 Sunscreen"
+    ]
+   },
+   {
+    "id": 40,
+    "default_code": "GC-004",
+    "name": "Gentle Face Cleanser",
+    "product_tmpl_id": [
+     32,
+     "[GC-004] Gentle Face Cleanser"
+    ]
+   },
+   {
+    "id": 44,
+    "default_code": "HN-001",
+    "name": "Scented Candle",
+    "product_tmpl_id": [
+     36,
+     "[HN-001] Scented Candle"
+    ]
+   },
+   {
+    "id": 45,
+    "default_code": "HN-002",
+    "name": "Ceramic Mug",
+    "product_tmpl_id": [
+     37,
+     "[HN-002] Ceramic Mug"
+    ]
+   },
+   {
+    "id": 46,
+    "default_code": "HN-003",
+    "name": "Throw Pillow",
+    "product_tmpl_id": [
+     38,
+     "[HN-003] Throw Pillow"
+    ]
+   },
+   {
+    "id": 41,
+    "default_code": "UT-001",
+    "name": "Classic Black T-Shirt",
+    "product_tmpl_id": [
+     33,
+     "[UT-001] Classic Black T-Shirt"
+    ]
+   },
+   {
+    "id": 42,
+    "default_code": "UT-002",
+    "name": "Oversized Hoodie",
+    "product_tmpl_id": [
+     34,
+     "[UT-002] Oversized Hoodie"
+    ]
+   },
+   {
+    "id": 43,
+    "default_code": "UT-003",
+    "name": "Cargo Pants",
+    "product_tmpl_id": [
+     35,
+     "[UT-003] Cargo Pants"
+    ]
+   },
+   {
+    "id": 50,
+    "default_code": false,
+    "name": "Chair floor protection",
+    "product_tmpl_id": [
+     40,
+     "Chair floor protection"
+    ]
+   },
+   {
+    "id": 49,
+    "default_code": false,
+    "name": "Deposit",
+    "product_tmpl_id": [
+     39,
+     "Deposit"
+    ]
+   },
+   {
+    "id": 2,
+    "default_code": false,
+    "name": "Hotel Accommodation",
+    "product_tmpl_id": [
+     2,
+     "Hotel Accommodation"
+    ]
+   },
+   {
+    "id": 1,
+    "default_code": false,
+    "name": "Restaurant Expenses",
+    "product_tmpl_id": [
+     1,
+     "Restaurant Expenses"
+    ]
+   },
+   {
+    "id": 4,
+    "default_code": false,
+    "name": "Virtual Home Staging",
+    "product_tmpl_id": [
+     4,
+     "Virtual Home Staging"
+    ]
+   },
+   {
+    "id": 3,
+    "default_code": false,
+    "name": "Virtual Interior Design",
+    "product_tmpl_id": [
+     3,
+     "Virtual Interior Design"
+    ]
+   }
+  ],
+  "stock.picking": [
+   {
+    "id": 6,
+    "name": "WH/OUT/00006",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "outgoing shipment",
+    "scheduled_date": "2026-09-19 14:08:31",
+    "date_done": "2026-09-20 14:08:31",
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 2,
+    "name": "WH/OUT/00002",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "outgoing shipment",
+    "scheduled_date": "2026-09-22 14:08:30",
+    "date_done": "2026-10-07 14:08:31",
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 7,
+    "name": "WH/OUT/00007",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "outgoing shipment",
+    "scheduled_date": "2026-09-30 14:08:31",
+    "date_done": "2026-09-30 14:08:31",
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 3,
+    "name": "WH/OUT/00003",
+    "state": "draft",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "outgoing shipment",
+    "scheduled_date": "2026-10-02 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 9,
+    "name": "WH/IN/00002",
+    "state": "assigned",
+    "partner_id": false,
+    "origin": false,
+    "scheduled_date": "2026-10-02 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 12,
+    "name": "WH/IN/00005",
+    "state": "draft",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": false,
+    "scheduled_date": "2026-10-07 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 11,
+    "name": "WH/IN/00004",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": false,
+    "scheduled_date": "2026-10-07 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 10,
+    "name": "WH/IN/00003",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": false,
+    "scheduled_date": "2026-10-07 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 8,
+    "name": "WH/IN/00001",
+    "state": "draft",
+    "partner_id": false,
+    "origin": false,
+    "scheduled_date": "2026-10-07 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 1,
+    "name": "WH/OUT/00001",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "outgoing shipment",
+    "scheduled_date": "2026-10-07 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 4,
+    "name": "WH/OUT/00004",
+    "state": "draft",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "your company warehouse",
+    "scheduled_date": "2026-10-07 14:08:30",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 21,
+    "name": "LFC/IN/00001",
+    "state": "assigned",
+    "partner_id": false,
+    "origin": "Manual Replenishment",
+    "scheduled_date": "2026-10-07 14:26:50",
+    "date_done": false,
+    "create_date": "2026-10-07 14:26:55",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 25,
+    "name": "WH/OUT/00011",
+    "state": "confirmed",
+    "partner_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "origin": "S00024",
+    "scheduled_date": "2026-10-07 14:37:56",
+    "date_done": false,
+    "create_date": "2026-10-07 14:37:55",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 29,
+    "name": "WH/OUT/00015",
+    "state": "assigned",
+    "partner_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "origin": "S00028",
+    "scheduled_date": "2026-10-07 14:39:41",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 28,
+    "name": "WH/OUT/00014",
+    "state": "assigned",
+    "partner_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "origin": "S00027",
+    "scheduled_date": "2026-10-07 14:39:41",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 27,
+    "name": "WH/OUT/00013",
+    "state": "assigned",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "origin": "S00026",
+    "scheduled_date": "2026-10-07 14:39:41",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 26,
+    "name": "WH/OUT/00012",
+    "state": "assigned",
+    "partner_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "origin": "S00025",
+    "scheduled_date": "2026-10-07 14:39:41",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 37,
+    "name": "WH/OUT/00023",
+    "state": "assigned",
+    "partner_id": [
+     68,
+     "Aisha Bello"
+    ],
+    "origin": "S00036",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 36,
+    "name": "WH/OUT/00022",
+    "state": "assigned",
+    "partner_id": [
+     73,
+     "Daniel James"
+    ],
+    "origin": "S00035",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 35,
+    "name": "WH/OUT/00021",
+    "state": "assigned",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "origin": "S00034",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 34,
+    "name": "WH/OUT/00020",
+    "state": "assigned",
+    "partner_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "origin": "S00033",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 33,
+    "name": "WH/OUT/00019",
+    "state": "assigned",
+    "partner_id": [
+     70,
+     "Tolu Williams"
+    ],
+    "origin": "S00032",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 32,
+    "name": "WH/OUT/00018",
+    "state": "assigned",
+    "partner_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "origin": "S00031",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 31,
+    "name": "WH/OUT/00017",
+    "state": "assigned",
+    "partner_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "origin": "S00030",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 30,
+    "name": "WH/OUT/00016",
+    "state": "assigned",
+    "partner_id": [
+     71,
+     "Michael Okoro"
+    ],
+    "origin": "S00029",
+    "scheduled_date": "2026-10-07 14:39:42",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 45,
+    "name": "WH/OUT/00031",
+    "state": "assigned",
+    "partner_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "origin": "S00044",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 44,
+    "name": "WH/OUT/00030",
+    "state": "assigned",
+    "partner_id": [
+     76,
+     "Grace Umeh"
+    ],
+    "origin": "S00043",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 43,
+    "name": "WH/OUT/00029",
+    "state": "assigned",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "origin": "S00042",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 42,
+    "name": "WH/OUT/00028",
+    "state": "assigned",
+    "partner_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "origin": "S00041",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 41,
+    "name": "WH/OUT/00027",
+    "state": "assigned",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "origin": "S00040",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 40,
+    "name": "WH/OUT/00026",
+    "state": "assigned",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "origin": "S00039",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 39,
+    "name": "WH/OUT/00025",
+    "state": "assigned",
+    "partner_id": [
+     67,
+     "Chinedu Okafor"
+    ],
+    "origin": "S00038",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 38,
+    "name": "WH/OUT/00024",
+    "state": "assigned",
+    "partner_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "origin": "S00037",
+    "scheduled_date": "2026-10-07 14:39:43",
+    "date_done": false,
+    "create_date": "2026-10-07 14:39:40",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 22,
+    "name": "WH/OUT/00008",
+    "state": "assigned",
+    "partner_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "origin": "S00021",
+    "scheduled_date": "2026-10-08 14:37:57",
+    "date_done": false,
+    "create_date": "2026-10-07 14:37:55",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 23,
+    "name": "WH/OUT/00009",
+    "state": "assigned",
+    "partner_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "origin": "S00022",
+    "scheduled_date": "2026-10-09 14:37:57",
+    "date_done": false,
+    "create_date": "2026-10-07 14:37:55",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 5,
+    "name": "WH/OUT/00005",
+    "state": "assigned",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "outgoing shipment",
+    "scheduled_date": "2026-10-10 14:08:31",
+    "date_done": false,
+    "create_date": "2026-10-07 14:08:20",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 24,
+    "name": "WH/OUT/00010",
+    "state": "assigned",
+    "partner_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "origin": "S00023",
+    "scheduled_date": "2026-10-10 14:37:57",
+    "date_done": false,
+    "create_date": "2026-10-07 14:37:55",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 46,
+    "name": "WH/OUT/00032",
+    "state": "assigned",
+    "partner_id": [
+     66,
+     "Sarah Johnson"
+    ],
+    "origin": "S00045",
+    "scheduled_date": "2026-10-19 16:46:08",
+    "date_done": false,
+    "create_date": "2026-10-19 16:46:08",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 47,
+    "name": "WH/OUT/00033",
+    "state": "assigned",
+    "partner_id": [
+     68,
+     "Aisha Bello"
+    ],
+    "origin": "S00046",
+    "scheduled_date": "2026-10-19 16:47:16",
+    "date_done": false,
+    "create_date": "2026-10-19 16:47:15",
+    "picking_type_code": "outgoing"
+   },
+   {
+    "id": 48,
+    "name": "WH/INT/00001",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-GC-002-Shelf 1",
+    "scheduled_date": "2026-10-20 23:00:48",
+    "date_done": "2026-10-20 23:00:50",
+    "create_date": "2026-10-20 23:00:48",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 49,
+    "name": "WH/INT/00002",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-GC-001-Shelf 1",
+    "scheduled_date": "2026-10-20 23:00:50",
+    "date_done": "2026-10-20 23:00:51",
+    "create_date": "2026-10-20 23:00:50",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 50,
+    "name": "WH/INT/00003",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-UT-001-Shelf 1",
+    "scheduled_date": "2026-10-20 23:00:51",
+    "date_done": "2026-10-20 23:00:52",
+    "create_date": "2026-10-20 23:00:51",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 51,
+    "name": "WH/INT/00004",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-UT-003-Shelf 2",
+    "scheduled_date": "2026-10-20 23:00:52",
+    "date_done": "2026-10-20 23:00:53",
+    "create_date": "2026-10-20 23:00:52",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 52,
+    "name": "WH/INT/00005",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-HN-002-Shelf 2",
+    "scheduled_date": "2026-10-20 23:00:54",
+    "date_done": "2026-10-20 23:00:55",
+    "create_date": "2026-10-20 23:00:54",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 53,
+    "name": "WH/INT/00006",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-HN-001-Shelf 2",
+    "scheduled_date": "2026-10-20 23:00:55",
+    "date_done": "2026-10-20 23:00:55",
+    "create_date": "2026-10-20 23:00:55",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 54,
+    "name": "WH/INT/00007",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-GC-004-Stock",
+    "scheduled_date": "2026-10-20 23:00:56",
+    "date_done": "2026-10-20 23:00:56",
+    "create_date": "2026-10-20 23:00:56",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 55,
+    "name": "WH/INT/00008",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-GC-003-Stock",
+    "scheduled_date": "2026-10-20 23:00:57",
+    "date_done": "2026-10-20 23:00:58",
+    "create_date": "2026-10-20 23:00:57",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 56,
+    "name": "WH/INT/00009",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-UT-002-Stock",
+    "scheduled_date": "2026-10-20 23:00:59",
+    "date_done": "2026-10-20 23:01:00",
+    "create_date": "2026-10-20 23:00:59",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 57,
+    "name": "WH/INT/00010",
+    "state": "done",
+    "partner_id": false,
+    "origin": "PUTAWAY-DEMO-HN-003-Stock",
+    "scheduled_date": "2026-10-20 23:01:00",
+    "date_done": "2026-10-20 23:01:01",
+    "create_date": "2026-10-20 23:01:00",
+    "picking_type_code": "internal"
+   },
+   {
+    "id": 58,
+    "name": "WH/IN/00006",
+    "state": "done",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "PO-DEMO-101",
+    "scheduled_date": "2026-10-20 23:01:16",
+    "date_done": "2026-10-20 23:01:17",
+    "create_date": "2026-10-20 23:01:16",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 59,
+    "name": "WH/IN/00007",
+    "state": "done",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "PO-DEMO-102",
+    "scheduled_date": "2026-10-20 23:01:17",
+    "date_done": "2026-10-20 23:01:19",
+    "create_date": "2026-10-20 23:01:17",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 60,
+    "name": "WH/IN/00008",
+    "state": "done",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "PO-DEMO-103",
+    "scheduled_date": "2026-10-20 23:01:19",
+    "date_done": "2026-10-20 23:01:20",
+    "create_date": "2026-10-20 23:01:19",
+    "picking_type_code": "incoming"
+   },
+   {
+    "id": 61,
+    "name": "WH/IN/00009",
+    "state": "done",
+    "partner_id": [
+     9,
+     "Wood Corner"
+    ],
+    "origin": "PO-DEMO-104",
+    "scheduled_date": "2026-10-20 23:01:21",
+    "date_done": "2026-10-20 23:01:22",
+    "create_date": "2026-10-20 23:01:21",
+    "picking_type_code": "incoming"
+   }
+  ],
+  "stock.move": [
+   {
+    "id": 1,
+    "picking_id": false,
+    "product_id": [
+     30,
+     "[FURN_0789] Individual Workplace"
+    ],
+    "product_uom_qty": 16.0,
+    "quantity": 16.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 2,
+    "picking_id": false,
+    "product_id": [
+     18,
+     "[E-COM08] Storage Box"
+    ],
+    "product_uom_qty": 18.0,
+    "quantity": 18.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 3,
+    "picking_id": false,
+    "product_id": [
+     17,
+     "[E-COM07] Large Cabinet"
+    ],
+    "product_uom_qty": 500.0,
+    "quantity": 500.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 4,
+    "picking_id": false,
+    "product_id": [
+     20,
+     "[E-COM10] Pedal Bin"
+    ],
+    "product_uom_qty": 22.0,
+    "quantity": 22.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 5,
+    "picking_id": false,
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "product_uom_qty": 33.0,
+    "quantity": 33.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 6,
+    "picking_id": false,
+    "product_id": [
+     23,
+     "[E-COM12] Conference Chair (Steel)"
+    ],
+    "product_uom_qty": 26.0,
+    "quantity": 26.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 7,
+    "picking_id": false,
+    "product_id": [
+     24,
+     "[E-COM13] Conference Chair (Aluminium)"
+    ],
+    "product_uom_qty": 30.0,
+    "quantity": 30.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 8,
+    "picking_id": false,
+    "product_id": [
+     12,
+     "[FURN_0096] Customizable Desk (Steel, White)"
+    ],
+    "product_uom_qty": 45.0,
+    "quantity": 45.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 9,
+    "picking_id": false,
+    "product_id": [
+     13,
+     "[FURN_0097] Customizable Desk (Steel, Black)"
+    ],
+    "product_uom_qty": 50.0,
+    "quantity": 50.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 10,
+    "picking_id": false,
+    "product_id": [
+     14,
+     "[FURN_0098] Customizable Desk (Aluminium, White)"
+    ],
+    "product_uom_qty": 55.0,
+    "quantity": 55.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 11,
+    "picking_id": false,
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "product_uom_qty": 10.0,
+    "quantity": 10.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 12,
+    "picking_id": false,
+    "product_id": [
+     26,
+     "[FURN_1118] Corner Desk Left Sit"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 13,
+    "picking_id": false,
+    "product_id": [
+     32,
+     "[FURN_8855] Drawer"
+    ],
+    "product_uom_qty": 80.0,
+    "quantity": 80.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 14,
+    "picking_id": false,
+    "product_id": [
+     8,
+     "[FURN_7800] Desk Combination"
+    ],
+    "product_uom_qty": 60.0,
+    "quantity": 60.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 15,
+    "picking_id": false,
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "product_uom_qty": 16.0,
+    "quantity": 16.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:28"
+   },
+   {
+    "id": 17,
+    "picking_id": false,
+    "product_id": [
+     36,
+     "[FURN_5555] Cable Management Box"
+    ],
+    "product_uom_qty": 50.0,
+    "quantity": 50.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 18,
+    "picking_id": false,
+    "product_id": [
+     36,
+     "[FURN_5555] Cable Management Box"
+    ],
+    "product_uom_qty": 40.0,
+    "quantity": 40.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 19,
+    "picking_id": [
+     1,
+     "WH/OUT/00001"
+    ],
+    "product_id": [
+     32,
+     "[FURN_8855] Drawer"
+    ],
+    "product_uom_qty": 15.0,
+    "quantity": 15.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 20,
+    "picking_id": [
+     2,
+     "WH/OUT/00002"
+    ],
+    "product_id": [
+     17,
+     "[E-COM07] Large Cabinet"
+    ],
+    "product_uom_qty": 180.0,
+    "quantity": 180.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-09-22 14:08:30"
+   },
+   {
+    "id": 21,
+    "picking_id": [
+     3,
+     "WH/OUT/00003"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "product_uom_qty": 45.0,
+    "quantity": 0.0,
+    "state": "draft",
+    "picking_code": "outgoing",
+    "date": "2026-10-02 14:08:30"
+   },
+   {
+    "id": 22,
+    "picking_id": [
+     4,
+     "WH/OUT/00004"
+    ],
+    "product_id": [
+     16,
+     "[E-COM06] Corner Desk Right Sit"
+    ],
+    "product_uom_qty": 75.0,
+    "quantity": 0.0,
+    "state": "draft",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 23,
+    "picking_id": [
+     5,
+     "WH/OUT/00005"
+    ],
+    "product_id": [
+     8,
+     "[FURN_7800] Desk Combination"
+    ],
+    "product_uom_qty": 16.0,
+    "quantity": 16.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-10 14:08:31"
+   },
+   {
+    "id": 24,
+    "picking_id": [
+     6,
+     "WH/OUT/00006"
+    ],
+    "product_id": [
+     8,
+     "[FURN_7800] Desk Combination"
+    ],
+    "product_uom_qty": 40.0,
+    "quantity": 40.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-09-19 14:08:31"
+   },
+   {
+    "id": 25,
+    "picking_id": [
+     7,
+     "WH/OUT/00007"
+    ],
+    "product_id": [
+     17,
+     "[E-COM07] Large Cabinet"
+    ],
+    "product_uom_qty": 50.0,
+    "quantity": 50.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-09-30 14:08:31"
+   },
+   {
+    "id": 26,
+    "picking_id": [
+     8,
+     "WH/IN/00001"
+    ],
+    "product_id": [
+     36,
+     "[FURN_5555] Cable Management Box"
+    ],
+    "product_uom_qty": 50.0,
+    "quantity": 0.0,
+    "state": "draft",
+    "picking_code": "incoming",
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 27,
+    "picking_id": [
+     9,
+     "WH/IN/00002"
+    ],
+    "product_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ],
+    "product_uom_qty": 35.0,
+    "quantity": 35.0,
+    "state": "assigned",
+    "picking_code": "incoming",
+    "date": "2026-10-02 14:08:30"
+   },
+   {
+    "id": 28,
+    "picking_id": [
+     10,
+     "WH/IN/00003"
+    ],
+    "product_id": [
+     29,
+     "[FURN_7888] Desk Stand with Screen"
+    ],
+    "product_uom_qty": 125.0,
+    "quantity": 125.0,
+    "state": "assigned",
+    "picking_code": "incoming",
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 29,
+    "picking_id": [
+     11,
+     "WH/IN/00004"
+    ],
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "product_uom_qty": 120.0,
+    "quantity": 120.0,
+    "state": "assigned",
+    "picking_code": "incoming",
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 30,
+    "picking_id": [
+     12,
+     "WH/IN/00005"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "product_uom_qty": 50.0,
+    "quantity": 0.0,
+    "state": "draft",
+    "picking_code": "incoming",
+    "date": "2026-10-07 14:08:30"
+   },
+   {
+    "id": 40,
+    "picking_id": [
+     9,
+     "WH/IN/00002"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "product_uom_qty": 10.0,
+    "quantity": 10.0,
+    "state": "assigned",
+    "picking_code": "incoming",
+    "date": "2026-10-07 12:00:00"
+   },
+   {
+    "id": 41,
+    "picking_id": [
+     9,
+     "WH/IN/00002"
+    ],
+    "product_id": [
+     28,
+     "[FURN_9001] Flipover"
+    ],
+    "product_uom_qty": 12.0,
+    "quantity": 12.0,
+    "state": "assigned",
+    "picking_code": "incoming",
+    "date": "2026-10-07 12:00:00"
+   },
+   {
+    "id": 42,
+    "picking_id": [
+     21,
+     "LFC/IN/00001"
+    ],
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "incoming",
+    "date": "2026-10-07 14:26:50"
+   },
+   {
+    "id": 53,
+    "picking_id": [
+     22,
+     "WH/OUT/00008"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "product_uom_qty": 5.0,
+    "quantity": 5.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-08 14:37:57"
+   },
+   {
+    "id": 54,
+    "picking_id": [
+     22,
+     "WH/OUT/00008"
+    ],
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "product_uom_qty": 5.0,
+    "quantity": 5.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-08 14:37:57"
+   },
+   {
+    "id": 55,
+    "picking_id": [
+     23,
+     "WH/OUT/00009"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "product_uom_qty": 5.0,
+    "quantity": 5.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-09 14:37:57"
+   },
+   {
+    "id": 56,
+    "picking_id": [
+     24,
+     "WH/OUT/00010"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "product_uom_qty": 10.0,
+    "quantity": 6.0,
+    "state": "partially_available",
+    "picking_code": "outgoing",
+    "date": "2026-10-10 14:37:57"
+   },
+   {
+    "id": 57,
+    "picking_id": [
+     24,
+     "WH/OUT/00010"
+    ],
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "product_uom_qty": 10.0,
+    "quantity": 10.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-10 14:37:57"
+   },
+   {
+    "id": 58,
+    "picking_id": [
+     25,
+     "WH/OUT/00011"
+    ],
+    "product_id": [
+     16,
+     "[E-COM06] Corner Desk Right Sit"
+    ],
+    "product_uom_qty": 10.0,
+    "quantity": 0.0,
+    "state": "confirmed",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 59,
+    "picking_id": false,
+    "product_id": [
+     47,
+     "[DESK0005] Customizable Desk (Custom, White)"
+    ],
+    "product_uom_qty": 65.0,
+    "quantity": 65.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:37:57"
+   },
+   {
+    "id": 60,
+    "picking_id": false,
+    "product_id": [
+     48,
+     "[DESK0006] Customizable Desk (Custom, Black)"
+    ],
+    "product_uom_qty": 70.0,
+    "quantity": 70.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:37:57"
+   },
+   {
+    "id": 61,
+    "picking_id": false,
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 84.0,
+    "quantity": 84.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 62,
+    "picking_id": false,
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "product_uom_qty": 126.0,
+    "quantity": 126.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 63,
+    "picking_id": false,
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "product_uom_qty": 57.0,
+    "quantity": 57.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 64,
+    "picking_id": false,
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "product_uom_qty": 143.0,
+    "quantity": 143.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 65,
+    "picking_id": false,
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 92.0,
+    "quantity": 92.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 66,
+    "picking_id": false,
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 34.0,
+    "quantity": 34.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 67,
+    "picking_id": false,
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "product_uom_qty": 48.0,
+    "quantity": 48.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 68,
+    "picking_id": false,
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 215.0,
+    "quantity": 215.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 69,
+    "picking_id": false,
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "product_uom_qty": 76.0,
+    "quantity": 76.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 70,
+    "picking_id": false,
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 41.0,
+    "quantity": 41.0,
+    "state": "done",
+    "picking_code": false,
+    "date": "2026-10-07 14:39:40"
+   },
+   {
+    "id": 71,
+    "picking_id": [
+     26,
+     "WH/OUT/00012"
+    ],
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 72,
+    "picking_id": [
+     26,
+     "WH/OUT/00012"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 73,
+    "picking_id": [
+     26,
+     "WH/OUT/00012"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 74,
+    "picking_id": [
+     27,
+     "WH/OUT/00013"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 75,
+    "picking_id": [
+     27,
+     "WH/OUT/00013"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 76,
+    "picking_id": [
+     27,
+     "WH/OUT/00013"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 77,
+    "picking_id": [
+     28,
+     "WH/OUT/00014"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 78,
+    "picking_id": [
+     29,
+     "WH/OUT/00015"
+    ],
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 79,
+    "picking_id": [
+     30,
+     "WH/OUT/00016"
+    ],
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 80,
+    "picking_id": [
+     30,
+     "WH/OUT/00016"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 81,
+    "picking_id": [
+     30,
+     "WH/OUT/00016"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 82,
+    "picking_id": [
+     31,
+     "WH/OUT/00017"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 83,
+    "picking_id": [
+     32,
+     "WH/OUT/00018"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 84,
+    "picking_id": [
+     33,
+     "WH/OUT/00019"
+    ],
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 85,
+    "picking_id": [
+     33,
+     "WH/OUT/00019"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 86,
+    "picking_id": [
+     34,
+     "WH/OUT/00020"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 87,
+    "picking_id": [
+     34,
+     "WH/OUT/00020"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 88,
+    "picking_id": [
+     35,
+     "WH/OUT/00021"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 89,
+    "picking_id": [
+     35,
+     "WH/OUT/00021"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 90,
+    "picking_id": [
+     35,
+     "WH/OUT/00021"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 91,
+    "picking_id": [
+     36,
+     "WH/OUT/00022"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 92,
+    "picking_id": [
+     37,
+     "WH/OUT/00023"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 93,
+    "picking_id": [
+     38,
+     "WH/OUT/00024"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 94,
+    "picking_id": [
+     38,
+     "WH/OUT/00024"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 95,
+    "picking_id": [
+     39,
+     "WH/OUT/00025"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 96,
+    "picking_id": [
+     39,
+     "WH/OUT/00025"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 97,
+    "picking_id": [
+     40,
+     "WH/OUT/00026"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 98,
+    "picking_id": [
+     40,
+     "WH/OUT/00026"
+    ],
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 99,
+    "picking_id": [
+     40,
+     "WH/OUT/00026"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 100,
+    "picking_id": [
+     41,
+     "WH/OUT/00027"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 101,
+    "picking_id": [
+     42,
+     "WH/OUT/00028"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 102,
+    "picking_id": [
+     43,
+     "WH/OUT/00029"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 103,
+    "picking_id": [
+     43,
+     "WH/OUT/00029"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 104,
+    "picking_id": [
+     44,
+     "WH/OUT/00030"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "product_uom_qty": 3.0,
+    "quantity": 3.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 105,
+    "picking_id": [
+     44,
+     "WH/OUT/00030"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 106,
+    "picking_id": [
+     45,
+     "WH/OUT/00031"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 107,
+    "picking_id": [
+     45,
+     "WH/OUT/00031"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 108,
+    "picking_id": [
+     46,
+     "WH/OUT/00032"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 2.0,
+    "quantity": 2.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-19 16:46:08"
+   },
+   {
+    "id": 109,
+    "picking_id": [
+     47,
+     "WH/OUT/00033"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 1.0,
+    "quantity": 1.0,
+    "state": "assigned",
+    "picking_code": "outgoing",
+    "date": "2026-10-19 16:47:16"
+   },
+   {
+    "id": 110,
+    "picking_id": [
+     48,
+     "WH/INT/00001"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "product_uom_qty": 24.0,
+    "quantity": 24.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:50"
+   },
+   {
+    "id": 111,
+    "picking_id": [
+     49,
+     "WH/INT/00002"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 30.0,
+    "quantity": 30.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:51"
+   },
+   {
+    "id": 112,
+    "picking_id": [
+     50,
+     "WH/INT/00003"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 40.0,
+    "quantity": 40.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:52"
+   },
+   {
+    "id": 113,
+    "picking_id": [
+     51,
+     "WH/INT/00004"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "product_uom_qty": 20.0,
+    "quantity": 20.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:53"
+   },
+   {
+    "id": 114,
+    "picking_id": [
+     52,
+     "WH/INT/00005"
+    ],
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "product_uom_qty": 25.0,
+    "quantity": 25.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:55"
+   },
+   {
+    "id": 115,
+    "picking_id": [
+     53,
+     "WH/INT/00006"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "product_uom_qty": 80.0,
+    "quantity": 80.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:55"
+   },
+   {
+    "id": 116,
+    "picking_id": [
+     54,
+     "WH/INT/00007"
+    ],
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "product_uom_qty": 60.0,
+    "quantity": 60.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:56"
+   },
+   {
+    "id": 117,
+    "picking_id": [
+     55,
+     "WH/INT/00008"
+    ],
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "product_uom_qty": 20.0,
+    "quantity": 20.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:00:58"
+   },
+   {
+    "id": 118,
+    "picking_id": [
+     56,
+     "WH/INT/00009"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "product_uom_qty": 12.0,
+    "quantity": 12.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:01:00"
+   },
+   {
+    "id": 119,
+    "picking_id": [
+     57,
+     "WH/INT/00010"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "product_uom_qty": 20.0,
+    "quantity": 20.0,
+    "state": "done",
+    "picking_code": "internal",
+    "date": "2026-10-20 23:01:01"
+   },
+   {
+    "id": 120,
+    "picking_id": [
+     58,
+     "WH/IN/00006"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "product_uom_qty": 40.0,
+    "quantity": 40.0,
+    "state": "done",
+    "picking_code": "incoming",
+    "date": "2026-10-20 23:01:17"
+   },
+   {
+    "id": 121,
+    "picking_id": [
+     59,
+     "WH/IN/00007"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "product_uom_qty": 60.0,
+    "quantity": 60.0,
+    "state": "done",
+    "picking_code": "incoming",
+    "date": "2026-10-20 23:01:19"
+   },
+   {
+    "id": 122,
+    "picking_id": [
+     60,
+     "WH/IN/00008"
+    ],
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "product_uom_qty": 30.0,
+    "quantity": 30.0,
+    "state": "done",
+    "picking_code": "incoming",
+    "date": "2026-10-20 23:01:20"
+   },
+   {
+    "id": 123,
+    "picking_id": [
+     61,
+     "WH/IN/00009"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "product_uom_qty": 40.0,
+    "quantity": 34.0,
+    "state": "done",
+    "picking_code": "incoming",
+    "date": "2026-10-20 23:01:22"
+   }
+  ],
+  "sale.order": [
+   {
+    "id": 46,
+    "name": "S00046",
+    "client_order_ref": "3PL-WEBHOOK-TEST-2",
+    "partner_id": [
+     68,
+     "Aisha Bello"
+    ],
+    "partner_shipping_id": [
+     68,
+     "Aisha Bello"
+    ],
+    "amount_total": 28000.0,
+    "state": "sale",
+    "date_order": "2026-10-19 16:47:16"
+   },
+   {
+    "id": 45,
+    "name": "S00045",
+    "client_order_ref": "3PL-WEBHOOK-TEST",
+    "partner_id": [
+     66,
+     "Sarah Johnson"
+    ],
+    "partner_shipping_id": [
+     66,
+     "Sarah Johnson"
+    ],
+    "amount_total": 25000.0,
+    "state": "sale",
+    "date_order": "2026-10-19 16:46:08"
+   },
+   {
+    "id": 44,
+    "name": "S00044",
+    "client_order_ref": "3PL-1020",
+    "partner_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "partner_shipping_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "amount_total": 76000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 43,
+    "name": "S00043",
+    "client_order_ref": "3PL-1019",
+    "partner_id": [
+     76,
+     "Grace Umeh"
+    ],
+    "partner_shipping_id": [
+     76,
+     "Grace Umeh"
+    ],
+    "amount_total": 111000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 42,
+    "name": "S00042",
+    "client_order_ref": "3PL-1018",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "partner_shipping_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "amount_total": 75000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 41,
+    "name": "S00041",
+    "client_order_ref": "3PL-1017",
+    "partner_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "partner_shipping_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "amount_total": 17000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 40,
+    "name": "S00040",
+    "client_order_ref": "3PL-1016",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "partner_shipping_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "amount_total": 25000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 39,
+    "name": "S00039",
+    "client_order_ref": "3PL-1015",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "partner_shipping_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "amount_total": 59000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 38,
+    "name": "S00038",
+    "client_order_ref": "3PL-1014",
+    "partner_id": [
+     67,
+     "Chinedu Okafor"
+    ],
+    "partner_shipping_id": [
+     67,
+     "Chinedu Okafor"
+    ],
+    "amount_total": 33500.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 37,
+    "name": "S00037",
+    "client_order_ref": "3PL-1013",
+    "partner_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "partner_shipping_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "amount_total": 70500.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 36,
+    "name": "S00036",
+    "client_order_ref": "3PL-1012",
+    "partner_id": [
+     68,
+     "Aisha Bello"
+    ],
+    "partner_shipping_id": [
+     68,
+     "Aisha Bello"
+    ],
+    "amount_total": 25500.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 35,
+    "name": "S00035",
+    "client_order_ref": "3PL-1011",
+    "partner_id": [
+     73,
+     "Daniel James"
+    ],
+    "partner_shipping_id": [
+     73,
+     "Daniel James"
+    ],
+    "amount_total": 36000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 34,
+    "name": "S00034",
+    "client_order_ref": "3PL-1010",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "partner_shipping_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "amount_total": 50500.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 33,
+    "name": "S00033",
+    "client_order_ref": "3PL-1009",
+    "partner_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "partner_shipping_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "amount_total": 51000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 32,
+    "name": "S00032",
+    "client_order_ref": "3PL-1008",
+    "partner_id": [
+     70,
+     "Tolu Williams"
+    ],
+    "partner_shipping_id": [
+     70,
+     "Tolu Williams"
+    ],
+    "amount_total": 117000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 31,
+    "name": "S00031",
+    "client_order_ref": "3PL-1007",
+    "partner_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "partner_shipping_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "amount_total": 15000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 30,
+    "name": "S00030",
+    "client_order_ref": "3PL-1006",
+    "partner_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "partner_shipping_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "amount_total": 19000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 29,
+    "name": "S00029",
+    "client_order_ref": "3PL-1005",
+    "partner_id": [
+     71,
+     "Michael Okoro"
+    ],
+    "partner_shipping_id": [
+     71,
+     "Michael Okoro"
+    ],
+    "amount_total": 126000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 28,
+    "name": "S00028",
+    "client_order_ref": "3PL-1004",
+    "partner_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "partner_shipping_id": [
+     69,
+     "Emeka Nwosu"
+    ],
+    "amount_total": 6000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 27,
+    "name": "S00027",
+    "client_order_ref": "3PL-1003",
+    "partner_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "partner_shipping_id": [
+     75,
+     "Samuel Peter"
+    ],
+    "amount_total": 25500.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 26,
+    "name": "S00026",
+    "client_order_ref": "3PL-1002",
+    "partner_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "partner_shipping_id": [
+     74,
+     "Amaka Obi"
+    ],
+    "amount_total": 149500.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 25,
+    "name": "S00025",
+    "client_order_ref": "3PL-1001",
+    "partner_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "partner_shipping_id": [
+     72,
+     "Blessing Eze"
+    ],
+    "amount_total": 48000.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 24,
+    "name": "S00024",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 1990.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 23,
+    "name": "S00023",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 4350.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 22,
+    "name": "S00022",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 1475.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 21,
+    "name": "S00021",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 2175.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 16,
+    "name": "S00016",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 1186.5,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 14,
+    "name": "S00014",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 1582.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 13,
+    "name": "S00013",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 415.5,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 12,
+    "name": "S00012",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 556.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 10,
+    "name": "S00010",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 751.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 8,
+    "name": "S00008",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 462.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 7,
+    "name": "S00007",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     23,
+     "Gemini Furniture, Soham Palmer"
+    ],
+    "amount_total": 1706.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 6,
+    "name": "S00006",
+    "client_order_ref": false,
+    "partner_id": [
+     15,
+     "Lumber Inc"
+    ],
+    "partner_shipping_id": [
+     15,
+     "Lumber Inc"
+    ],
+    "amount_total": 750.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 4,
+    "name": "S00004",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 2240.0,
+    "state": "sale",
+    "date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 3,
+    "name": "S00003",
+    "client_order_ref": false,
+    "partner_id": [
+     12,
+     "Ready Mat"
+    ],
+    "partner_shipping_id": [
+     12,
+     "Ready Mat"
+    ],
+    "amount_total": 377.5,
+    "state": "draft",
+    "date_order": "2026-10-07 14:37:49"
+   },
+   {
+    "id": 9,
+    "name": "S00009",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 654.0,
+    "state": "sale",
+    "date_order": "2026-09-30 14:37:51"
+   },
+   {
+    "id": 15,
+    "name": "S00015",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 1541.5,
+    "state": "sale",
+    "date_order": "2026-09-23 14:37:51"
+   },
+   {
+    "id": 11,
+    "name": "S00011",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 1096.5,
+    "state": "sale",
+    "date_order": "2026-09-16 14:37:51"
+   },
+   {
+    "id": 17,
+    "name": "S00017",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 951.0,
+    "state": "sale",
+    "date_order": "2026-09-09 14:37:51"
+   },
+   {
+    "id": 20,
+    "name": "S00020",
+    "client_order_ref": false,
+    "partner_id": [
+     8,
+     "YourCompany, Joel Willis"
+    ],
+    "partner_shipping_id": [
+     8,
+     "YourCompany, Joel Willis"
+    ],
+    "amount_total": 2947.5,
+    "state": "sale",
+    "date_order": "2026-09-07 14:37:51"
+   },
+   {
+    "id": 19,
+    "name": "S00019",
+    "client_order_ref": false,
+    "partner_id": [
+     8,
+     "YourCompany, Joel Willis"
+    ],
+    "partner_shipping_id": [
+     8,
+     "YourCompany, Joel Willis"
+    ],
+    "amount_total": 1740.0,
+    "state": "sent",
+    "date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 5,
+    "name": "S00005",
+    "client_order_ref": false,
+    "partner_id": [
+     10,
+     "Acme Corporation"
+    ],
+    "partner_shipping_id": [
+     10,
+     "Acme Corporation"
+    ],
+    "amount_total": 405.0,
+    "state": "draft",
+    "date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 2,
+    "name": "S00002",
+    "client_order_ref": false,
+    "partner_id": [
+     12,
+     "Ready Mat"
+    ],
+    "partner_shipping_id": [
+     24,
+     "Ready Mat, Kim Snyder"
+    ],
+    "amount_total": 2947.5,
+    "state": "draft",
+    "date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 1,
+    "name": "S00001",
+    "client_order_ref": false,
+    "partner_id": [
+     10,
+     "Acme Corporation"
+    ],
+    "partner_shipping_id": [
+     10,
+     "Acme Corporation"
+    ],
+    "amount_total": 1740.0,
+    "state": "draft",
+    "date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 18,
+    "name": "S00018",
+    "client_order_ref": false,
+    "partner_id": [
+     11,
+     "Gemini Furniture"
+    ],
+    "partner_shipping_id": [
+     31,
+     "Gemini Furniture, Oscar Morgan"
+    ],
+    "amount_total": 831.0,
+    "state": "sale",
+    "date_order": "2026-09-02 14:37:51"
+   }
+  ],
+  "sale.order.line": [
+   {
+    "id": 89,
+    "order_id": [
+     46,
+     "S00046"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "name": "[UT-002] Oversized Hoodie",
+    "product_uom_qty": 1.0,
+    "price_unit": 28000.0,
+    "price_subtotal": 28000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-19 16:47:16"
+   },
+   {
+    "id": 88,
+    "order_id": [
+     45,
+     "S00045"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "name": "[GC-001] Vitamin C Serum",
+    "product_uom_qty": 2.0,
+    "price_unit": 12500.0,
+    "price_subtotal": 25000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-19 16:46:08"
+   },
+   {
+    "id": 86,
+    "order_id": [
+     44,
+     "S00044"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "name": "[UT-003] Cargo Pants",
+    "product_uom_qty": 2.0,
+    "price_unit": 32000.0,
+    "price_subtotal": 64000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 87,
+    "order_id": [
+     44,
+     "S00044"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "name": "[HN-003] Throw Pillow",
+    "product_uom_qty": 1.0,
+    "price_unit": 12000.0,
+    "price_subtotal": 12000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 84,
+    "order_id": [
+     43,
+     "S00043"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "name": "[UT-003] Cargo Pants",
+    "product_uom_qty": 3.0,
+    "price_unit": 32000.0,
+    "price_subtotal": 96000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 85,
+    "order_id": [
+     43,
+     "S00043"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "name": "[UT-001] Classic Black T-Shirt",
+    "product_uom_qty": 1.0,
+    "price_unit": 15000.0,
+    "price_subtotal": 15000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 82,
+    "order_id": [
+     42,
+     "S00042"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "name": "[GC-002] Hydrating Face Cream",
+    "product_uom_qty": 2.0,
+    "price_unit": 9500.0,
+    "price_subtotal": 19000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 83,
+    "order_id": [
+     42,
+     "S00042"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "name": "[UT-002] Oversized Hoodie",
+    "product_uom_qty": 2.0,
+    "price_unit": 28000.0,
+    "price_subtotal": 56000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 81,
+    "order_id": [
+     41,
+     "S00041"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 2.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 17000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 80,
+    "order_id": [
+     40,
+     "S00040"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "name": "[GC-001] Vitamin C Serum",
+    "product_uom_qty": 2.0,
+    "price_unit": 12500.0,
+    "price_subtotal": 25000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 77,
+    "order_id": [
+     39,
+     "S00039"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "name": "[UT-002] Oversized Hoodie",
+    "product_uom_qty": 1.0,
+    "price_unit": 28000.0,
+    "price_subtotal": 28000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 78,
+    "order_id": [
+     39,
+     "S00039"
+    ],
+    "product_id": [
+     40,
+     "[GC-004] Gentle Face Cleanser"
+    ],
+    "name": "[GC-004] Gentle Face Cleanser",
+    "product_uom_qty": 3.0,
+    "price_unit": 7500.0,
+    "price_subtotal": 22500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 79,
+    "order_id": [
+     39,
+     "S00039"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 1.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 8500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 75,
+    "order_id": [
+     38,
+     "S00038"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "name": "[GC-001] Vitamin C Serum",
+    "product_uom_qty": 2.0,
+    "price_unit": 12500.0,
+    "price_subtotal": 25000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 76,
+    "order_id": [
+     38,
+     "S00038"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 1.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 8500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 73,
+    "order_id": [
+     37,
+     "S00037"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 3.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 25500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 74,
+    "order_id": [
+     37,
+     "S00037"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "name": "[UT-001] Classic Black T-Shirt",
+    "product_uom_qty": 3.0,
+    "price_unit": 15000.0,
+    "price_subtotal": 45000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:43"
+   },
+   {
+    "id": 72,
+    "order_id": [
+     36,
+     "S00036"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 3.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 25500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 71,
+    "order_id": [
+     35,
+     "S00035"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "name": "[HN-003] Throw Pillow",
+    "product_uom_qty": 3.0,
+    "price_unit": 12000.0,
+    "price_subtotal": 36000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 68,
+    "order_id": [
+     34,
+     "S00034"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "name": "[HN-003] Throw Pillow",
+    "product_uom_qty": 1.0,
+    "price_unit": 12000.0,
+    "price_subtotal": 12000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 69,
+    "order_id": [
+     34,
+     "S00034"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "name": "[UT-001] Classic Black T-Shirt",
+    "product_uom_qty": 2.0,
+    "price_unit": 15000.0,
+    "price_subtotal": 30000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 70,
+    "order_id": [
+     34,
+     "S00034"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 1.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 8500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 66,
+    "order_id": [
+     33,
+     "S00033"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "name": "[UT-001] Classic Black T-Shirt",
+    "product_uom_qty": 1.0,
+    "price_unit": 15000.0,
+    "price_subtotal": 15000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 67,
+    "order_id": [
+     33,
+     "S00033"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "name": "[HN-003] Throw Pillow",
+    "product_uom_qty": 3.0,
+    "price_unit": 12000.0,
+    "price_subtotal": 36000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 64,
+    "order_id": [
+     32,
+     "S00032"
+    ],
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "name": "[GC-003] SPF 50 Sunscreen",
+    "product_uom_qty": 3.0,
+    "price_unit": 11000.0,
+    "price_subtotal": 33000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 65,
+    "order_id": [
+     32,
+     "S00032"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "name": "[UT-002] Oversized Hoodie",
+    "product_uom_qty": 3.0,
+    "price_unit": 28000.0,
+    "price_subtotal": 84000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 63,
+    "order_id": [
+     31,
+     "S00031"
+    ],
+    "product_id": [
+     41,
+     "[UT-001] Classic Black T-Shirt"
+    ],
+    "name": "[UT-001] Classic Black T-Shirt",
+    "product_uom_qty": 1.0,
+    "price_unit": 15000.0,
+    "price_subtotal": 15000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 62,
+    "order_id": [
+     30,
+     "S00030"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "name": "[GC-002] Hydrating Face Cream",
+    "product_uom_qty": 2.0,
+    "price_unit": 9500.0,
+    "price_subtotal": 19000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 59,
+    "order_id": [
+     29,
+     "S00029"
+    ],
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "name": "[HN-002] Ceramic Mug",
+    "product_uom_qty": 3.0,
+    "price_unit": 6000.0,
+    "price_subtotal": 18000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 60,
+    "order_id": [
+     29,
+     "S00029"
+    ],
+    "product_id": [
+     42,
+     "[UT-002] Oversized Hoodie"
+    ],
+    "name": "[UT-002] Oversized Hoodie",
+    "product_uom_qty": 3.0,
+    "price_unit": 28000.0,
+    "price_subtotal": 84000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 61,
+    "order_id": [
+     29,
+     "S00029"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "name": "[HN-003] Throw Pillow",
+    "product_uom_qty": 2.0,
+    "price_unit": 12000.0,
+    "price_subtotal": 24000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:42"
+   },
+   {
+    "id": 58,
+    "order_id": [
+     28,
+     "S00028"
+    ],
+    "product_id": [
+     45,
+     "[HN-002] Ceramic Mug"
+    ],
+    "name": "[HN-002] Ceramic Mug",
+    "product_uom_qty": 1.0,
+    "price_unit": 6000.0,
+    "price_subtotal": 6000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 57,
+    "order_id": [
+     27,
+     "S00027"
+    ],
+    "product_id": [
+     44,
+     "[HN-001] Scented Candle"
+    ],
+    "name": "[HN-001] Scented Candle",
+    "product_uom_qty": 3.0,
+    "price_unit": 8500.0,
+    "price_subtotal": 25500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 54,
+    "order_id": [
+     26,
+     "S00026"
+    ],
+    "product_id": [
+     38,
+     "[GC-002] Hydrating Face Cream"
+    ],
+    "name": "[GC-002] Hydrating Face Cream",
+    "product_uom_qty": 3.0,
+    "price_unit": 9500.0,
+    "price_subtotal": 28500.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 55,
+    "order_id": [
+     26,
+     "S00026"
+    ],
+    "product_id": [
+     43,
+     "[UT-003] Cargo Pants"
+    ],
+    "name": "[UT-003] Cargo Pants",
+    "product_uom_qty": 3.0,
+    "price_unit": 32000.0,
+    "price_subtotal": 96000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 56,
+    "order_id": [
+     26,
+     "S00026"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "name": "[GC-001] Vitamin C Serum",
+    "product_uom_qty": 2.0,
+    "price_unit": 12500.0,
+    "price_subtotal": 25000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 51,
+    "order_id": [
+     25,
+     "S00025"
+    ],
+    "product_id": [
+     39,
+     "[GC-003] SPF 50 Sunscreen"
+    ],
+    "name": "[GC-003] SPF 50 Sunscreen",
+    "product_uom_qty": 1.0,
+    "price_unit": 11000.0,
+    "price_subtotal": 11000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 52,
+    "order_id": [
+     25,
+     "S00025"
+    ],
+    "product_id": [
+     46,
+     "[HN-003] Throw Pillow"
+    ],
+    "name": "[HN-003] Throw Pillow",
+    "product_uom_qty": 1.0,
+    "price_unit": 12000.0,
+    "price_subtotal": 12000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 53,
+    "order_id": [
+     25,
+     "S00025"
+    ],
+    "product_id": [
+     37,
+     "[GC-001] Vitamin C Serum"
+    ],
+    "name": "[GC-001] Vitamin C Serum",
+    "product_uom_qty": 2.0,
+    "price_unit": 12500.0,
+    "price_subtotal": 25000.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:39:41"
+   },
+   {
+    "id": 50,
+    "order_id": [
+     24,
+     "S00024"
+    ],
+    "product_id": [
+     16,
+     "[E-COM06] Corner Desk Right Sit"
+    ],
+    "name": "[E-COM06] Corner Desk Right Sit",
+    "product_uom_qty": 10.0,
+    "price_unit": 199.0,
+    "price_subtotal": 1990.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 48,
+    "order_id": [
+     23,
+     "S00023"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 10.0,
+    "price_unit": 295.0,
+    "price_subtotal": 2950.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 49,
+    "order_id": [
+     23,
+     "S00023"
+    ],
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "name": "[E-COM11] Cabinet with Doors",
+    "product_uom_qty": 10.0,
+    "price_unit": 140.0,
+    "price_subtotal": 1400.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 47,
+    "order_id": [
+     22,
+     "S00022"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 5.0,
+    "price_unit": 295.0,
+    "price_subtotal": 1475.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 45,
+    "order_id": [
+     21,
+     "S00021"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 5.0,
+    "price_unit": 295.0,
+    "price_subtotal": 1475.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 46,
+    "order_id": [
+     21,
+     "S00021"
+    ],
+    "product_id": [
+     21,
+     "[E-COM11] Cabinet with Doors"
+    ],
+    "name": "[E-COM11] Cabinet with Doors",
+    "product_uom_qty": 5.0,
+    "price_unit": 140.0,
+    "price_subtotal": 700.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:56"
+   },
+   {
+    "id": 34,
+    "order_id": [
+     16,
+     "S00016"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 3.0,
+    "price_unit": 275.0,
+    "price_subtotal": 825.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 35,
+    "order_id": [
+     16,
+     "S00016"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 3.0,
+    "price_unit": 120.5,
+    "price_subtotal": 361.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 30,
+    "order_id": [
+     14,
+     "S00014"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 4.0,
+    "price_unit": 275.0,
+    "price_subtotal": 1100.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 31,
+    "order_id": [
+     14,
+     "S00014"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 4.0,
+    "price_unit": 120.5,
+    "price_subtotal": 482.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 28,
+    "order_id": [
+     13,
+     "S00013"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 1.0,
+    "price_unit": 295.0,
+    "price_subtotal": 295.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 29,
+    "order_id": [
+     13,
+     "S00013"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 1.0,
+    "price_unit": 120.5,
+    "price_subtotal": 120.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 26,
+    "order_id": [
+     12,
+     "S00012"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 1.0,
+    "price_unit": 315.0,
+    "price_subtotal": 315.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 27,
+    "order_id": [
+     12,
+     "S00012"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 2.0,
+    "price_unit": 120.5,
+    "price_subtotal": 241.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 22,
+    "order_id": [
+     10,
+     "S00010"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 2.0,
+    "price_unit": 255.0,
+    "price_subtotal": 510.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 23,
+    "order_id": [
+     10,
+     "S00010"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 2.0,
+    "price_unit": 120.5,
+    "price_subtotal": 241.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 18,
+    "order_id": [
+     8,
+     "S00008"
+    ],
+    "product_id": [
+     32,
+     "[FURN_8855] Drawer"
+    ],
+    "name": "[FURN_8855] Drawer",
+    "product_uom_qty": 2.0,
+    "price_unit": 110.5,
+    "price_subtotal": 221.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 19,
+    "order_id": [
+     8,
+     "S00008"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 2.0,
+    "price_unit": 120.5,
+    "price_subtotal": 241.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 14,
+    "order_id": [
+     7,
+     "S00007"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 5.0,
+    "price_unit": 295.0,
+    "price_subtotal": 1475.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 15,
+    "order_id": [
+     7,
+     "S00007"
+    ],
+    "product_id": [
+     35,
+     "[FURN_8999] Three-Seat Sofa"
+    ],
+    "name": "[FURN_8999] Three-Seat Sofa\nThree Seater Sofa with Lounger in Steel Grey Colour",
+    "product_uom_qty": 1.0,
+    "price_unit": 173.0,
+    "price_subtotal": 173.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 16,
+    "order_id": [
+     7,
+     "S00007"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "name": "[FURN_8888] Office Lamp",
+    "product_uom_qty": 1.0,
+    "price_unit": 40.0,
+    "price_subtotal": 40.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 17,
+    "order_id": [
+     7,
+     "S00007"
+    ],
+    "product_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ],
+    "name": "[FURN_7777] Office Chair",
+    "product_uom_qty": 1.0,
+    "price_unit": 18.0,
+    "price_subtotal": 18.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 13,
+    "order_id": [
+     6,
+     "S00006"
+    ],
+    "product_id": [
+     12,
+     "[FURN_0096] Customizable Desk (Steel, White)"
+    ],
+    "name": "[FURN_0096] Customizable Desk (Steel, White)\n160x80cm, with large legs.",
+    "product_uom_qty": 1.0,
+    "price_unit": 750.0,
+    "price_subtotal": 750.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 8,
+    "order_id": [
+     4,
+     "S00004"
+    ],
+    "product_id": [
+     3,
+     "Virtual Interior Design"
+    ],
+    "name": "Virtual Interior Design",
+    "product_uom_qty": 16.0,
+    "price_unit": 75.0,
+    "price_subtotal": 1200.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 9,
+    "order_id": [
+     4,
+     "S00004"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "name": "[FURN_8888] Office Lamp",
+    "product_uom_qty": 10.0,
+    "price_unit": 45.0,
+    "price_subtotal": 450.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 10,
+    "order_id": [
+     4,
+     "S00004"
+    ],
+    "product_id": [
+     34,
+     "[FURN_6741] Large Meeting Table"
+    ],
+    "name": "[FURN_6741] Large Meeting Table\nConference room table",
+    "product_uom_qty": 3.0,
+    "price_unit": 150.0,
+    "price_subtotal": 450.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 11,
+    "order_id": [
+     4,
+     "S00004"
+    ],
+    "product_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ],
+    "name": "[FURN_7777] Office Chair",
+    "product_uom_qty": 2.0,
+    "price_unit": 70.0,
+    "price_subtotal": 140.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-10-07 14:37:51"
+   },
+   {
+    "id": 6,
+    "order_id": [
+     3,
+     "S00003"
+    ],
+    "product_id": [
+     3,
+     "Virtual Interior Design"
+    ],
+    "name": "Virtual Interior Design",
+    "product_uom_qty": 10.0,
+    "price_unit": 30.75,
+    "price_subtotal": 307.5,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-10-07 14:37:49"
+   },
+   {
+    "id": 7,
+    "order_id": [
+     3,
+     "S00003"
+    ],
+    "product_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ],
+    "name": "[FURN_7777] Office Chair",
+    "product_uom_qty": 1.0,
+    "price_unit": 70.0,
+    "price_subtotal": 70.0,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-10-07 14:37:49"
+   },
+   {
+    "id": 20,
+    "order_id": [
+     9,
+     "S00009"
+    ],
+    "product_id": [
+     32,
+     "[FURN_8855] Drawer"
+    ],
+    "name": "[FURN_8855] Drawer",
+    "product_uom_qty": 3.0,
+    "price_unit": 97.5,
+    "price_subtotal": 292.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-30 14:37:51"
+   },
+   {
+    "id": 21,
+    "order_id": [
+     9,
+     "S00009"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 3.0,
+    "price_unit": 120.5,
+    "price_subtotal": 361.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-30 14:37:51"
+   },
+   {
+    "id": 32,
+    "order_id": [
+     15,
+     "S00015"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 4.0,
+    "price_unit": 295.0,
+    "price_subtotal": 1180.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-23 14:37:51"
+   },
+   {
+    "id": 33,
+    "order_id": [
+     15,
+     "S00015"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 3.0,
+    "price_unit": 120.5,
+    "price_subtotal": 361.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-23 14:37:51"
+   },
+   {
+    "id": 24,
+    "order_id": [
+     11,
+     "S00011"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 3.0,
+    "price_unit": 245.0,
+    "price_subtotal": 735.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-16 14:37:51"
+   },
+   {
+    "id": 25,
+    "order_id": [
+     11,
+     "S00011"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 3.0,
+    "price_unit": 120.5,
+    "price_subtotal": 361.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-16 14:37:51"
+   },
+   {
+    "id": 36,
+    "order_id": [
+     17,
+     "S00017"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 2.0,
+    "price_unit": 355.0,
+    "price_subtotal": 710.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-09 14:37:51"
+   },
+   {
+    "id": 37,
+    "order_id": [
+     17,
+     "S00017"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 2.0,
+    "price_unit": 120.5,
+    "price_subtotal": 241.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-09 14:37:51"
+   },
+   {
+    "id": 43,
+    "order_id": [
+     20,
+     "S00020"
+    ],
+    "product_id": [
+     3,
+     "Virtual Interior Design"
+    ],
+    "name": "Virtual Interior Design",
+    "product_uom_qty": 24.0,
+    "price_unit": 75.0,
+    "price_subtotal": 1800.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-07 14:37:51"
+   },
+   {
+    "id": 44,
+    "order_id": [
+     20,
+     "S00020"
+    ],
+    "product_id": [
+     4,
+     "Virtual Home Staging"
+    ],
+    "name": "Virtual Home Staging",
+    "product_uom_qty": 30.0,
+    "price_unit": 38.25,
+    "price_subtotal": 1147.5,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-07 14:37:51"
+   },
+   {
+    "id": 40,
+    "order_id": [
+     19,
+     "S00019"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 3.0,
+    "price_unit": 295.0,
+    "price_subtotal": 885.0,
+    "order_id.state": "sent",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 41,
+    "order_id": [
+     19,
+     "S00019"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "name": "[FURN_8888] Office Lamp",
+    "product_uom_qty": 5.0,
+    "price_unit": 145.0,
+    "price_subtotal": 725.0,
+    "order_id.state": "sent",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 42,
+    "order_id": [
+     19,
+     "S00019"
+    ],
+    "product_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ],
+    "name": "[FURN_7777] Office Chair",
+    "product_uom_qty": 2.0,
+    "price_unit": 65.0,
+    "price_subtotal": 130.0,
+    "order_id.state": "sent",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 12,
+    "order_id": [
+     5,
+     "S00005"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "name": "[FURN_8888] Office Lamp",
+    "product_uom_qty": 1.0,
+    "price_unit": 405.0,
+    "price_subtotal": 405.0,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 4,
+    "order_id": [
+     2,
+     "S00002"
+    ],
+    "product_id": [
+     3,
+     "Virtual Interior Design"
+    ],
+    "name": "Virtual Interior Design",
+    "product_uom_qty": 24.0,
+    "price_unit": 75.0,
+    "price_subtotal": 1800.0,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 5,
+    "order_id": [
+     2,
+     "S00002"
+    ],
+    "product_id": [
+     4,
+     "Virtual Home Staging"
+    ],
+    "name": "Virtual Home Staging",
+    "product_uom_qty": 30.0,
+    "price_unit": 38.25,
+    "price_subtotal": 1147.5,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 1,
+    "order_id": [
+     1,
+     "S00001"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 3.0,
+    "price_unit": 295.0,
+    "price_subtotal": 885.0,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 2,
+    "order_id": [
+     1,
+     "S00001"
+    ],
+    "product_id": [
+     6,
+     "[FURN_8888] Office Lamp"
+    ],
+    "name": "[FURN_8888] Office Lamp",
+    "product_uom_qty": 5.0,
+    "price_unit": 145.0,
+    "price_subtotal": 725.0,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 3,
+    "order_id": [
+     1,
+     "S00001"
+    ],
+    "product_id": [
+     5,
+     "[FURN_7777] Office Chair"
+    ],
+    "name": "[FURN_7777] Office Chair",
+    "product_uom_qty": 2.0,
+    "price_unit": 65.0,
+    "price_subtotal": 130.0,
+    "order_id.state": "draft",
+    "order_id.date_order": "2026-09-07 14:37:00"
+   },
+   {
+    "id": 38,
+    "order_id": [
+     18,
+     "S00018"
+    ],
+    "product_id": [
+     31,
+     "[FURN_6666] Acoustic Bloc Screens"
+    ],
+    "name": "[FURN_6666] Acoustic Bloc Screens",
+    "product_uom_qty": 2.0,
+    "price_unit": 295.0,
+    "price_subtotal": 590.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-02 14:37:51"
+   },
+   {
+    "id": 39,
+    "order_id": [
+     18,
+     "S00018"
+    ],
+    "product_id": [
+     25,
+     "[FURN_0269] Office Chair Black"
+    ],
+    "name": "[FURN_0269] Office Chair Black",
+    "product_uom_qty": 2.0,
+    "price_unit": 120.5,
+    "price_subtotal": 241.0,
+    "order_id.state": "sale",
+    "order_id.date_order": "2026-09-02 14:37:51"
+   }
+  ],
+  "res.partner": [
+   {
+    "id": 8,
+    "name": "Joel Willis",
+    "email": "joel.willis63@example.com",
+    "phone": "(683)-556-5104",
+    "street": "858 Lynn Street",
+    "street2": false,
+    "city": "Bayonne",
+    "zip": "07002",
+    "state_id": [
+     33,
+     "New Jersey (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 10,
+    "name": "Acme Corporation",
+    "email": "info@acme-example-company.com",
+    "phone": "+32 10 588 558",
+    "street": "77 Santa Barbara Rd",
+    "street2": false,
+    "city": "Pleasant Hill",
+    "zip": "94523",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 11,
+    "name": "Gemini Furniture",
+    "email": "john.b@tech.info",
+    "phone": "+1 312 349 2324",
+    "street": "317 Fairchild Dr",
+    "street2": false,
+    "city": "Fairfield",
+    "zip": "94535",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 12,
+    "name": "Ready Mat",
+    "email": "info@deltapc.example.com",
+    "phone": "(803)-873-6126",
+    "street": "7500 W Linne Road",
+    "street2": false,
+    "city": "Tracy",
+    "zip": "95304",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 15,
+    "name": "Lumber Inc",
+    "email": "lumber-inv92@example.com",
+    "phone": "(828)-316-0593",
+    "street": "1337 N San Joaquin St",
+    "street2": false,
+    "city": "Stockton",
+    "zip": "95202",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 23,
+    "name": "Soham Palmer",
+    "email": "soham.palmer15@example.com",
+    "phone": "(379)-167-2040",
+    "street": "317 Fairchild Dr",
+    "street2": false,
+    "city": "Fairfield",
+    "zip": "94535",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 24,
+    "name": "Kim Snyder",
+    "email": "kim.snyder96@example.com",
+    "phone": "(215)-379-4865",
+    "street": "7500 W Linne Road",
+    "street2": false,
+    "city": "Tracy",
+    "zip": "95304",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 31,
+    "name": "Oscar Morgan",
+    "email": "oscar.morgan11@example.com",
+    "phone": "(561)-239-1744",
+    "street": "317 Fairchild Dr",
+    "street2": false,
+    "city": "Fairfield",
+    "zip": "94535",
+    "state_id": [
+     13,
+     "California (US)"
+    ],
+    "country_id": [
+     233,
+     "United States"
+    ]
+   },
+   {
+    "id": 66,
+    "name": "Sarah Johnson",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Ikeja",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 67,
+    "name": "Chinedu Okafor",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Yaba",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 68,
+    "name": "Aisha Bello",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Surulere",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 69,
+    "name": "Emeka Nwosu",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Ajah",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 70,
+    "name": "Tolu Williams",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Gbagada",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 71,
+    "name": "Michael Okoro",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Maryland",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 72,
+    "name": "Blessing Eze",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Ikorodu",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 73,
+    "name": "Daniel James",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Victoria Island",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 74,
+    "name": "Amaka Obi",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Magodo",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 75,
+    "name": "Samuel Peter",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Yaba",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   },
+   {
+    "id": 76,
+    "name": "Grace Umeh",
+    "email": false,
+    "phone": false,
+    "street": false,
+    "street2": false,
+    "city": "Lekki",
+    "zip": false,
+    "state_id": false,
+    "country_id": [
+     163,
+     "Nigeria"
+    ]
+   }
+  ]
+ },
+ "db": {
+  "fulfillment_orders": [
+   {
+    "id": 5,
+    "odoo_order_id": 40,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 6,
+    "odoo_order_id": 39,
+    "status": "received",
+    "merchant": "Urban Threads",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 7,
+    "odoo_order_id": 38,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 8,
+    "odoo_order_id": 37,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 9,
+    "odoo_order_id": 36,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 10,
+    "odoo_order_id": 35,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 11,
+    "odoo_order_id": 34,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 12,
+    "odoo_order_id": 33,
+    "status": "received",
+    "merchant": "Urban Threads",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 13,
+    "odoo_order_id": 32,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 14,
+    "odoo_order_id": 31,
+    "status": "received",
+    "merchant": "Urban Threads",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 15,
+    "odoo_order_id": 30,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 16,
+    "odoo_order_id": 29,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 17,
+    "odoo_order_id": 28,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 18,
+    "odoo_order_id": 27,
+    "status": "received",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 19,
+    "odoo_order_id": 26,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 20,
+    "odoo_order_id": 25,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 21,
+    "odoo_order_id": 24,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 22,
+    "odoo_order_id": 23,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 23,
+    "odoo_order_id": 22,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 24,
+    "odoo_order_id": 21,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 25,
+    "odoo_order_id": 16,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 26,
+    "odoo_order_id": 14,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 27,
+    "odoo_order_id": 13,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 28,
+    "odoo_order_id": 12,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 29,
+    "odoo_order_id": 10,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 30,
+    "odoo_order_id": 8,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 31,
+    "odoo_order_id": 7,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 32,
+    "odoo_order_id": 6,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 33,
+    "odoo_order_id": 4,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 34,
+    "odoo_order_id": 3,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 35,
+    "odoo_order_id": 9,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 36,
+    "odoo_order_id": 15,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 37,
+    "odoo_order_id": 11,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 38,
+    "odoo_order_id": 17,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 39,
+    "odoo_order_id": 20,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 40,
+    "odoo_order_id": 19,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 41,
+    "odoo_order_id": 5,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 42,
+    "odoo_order_id": 2,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 43,
+    "odoo_order_id": 1,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 44,
+    "odoo_order_id": 18,
+    "status": "received",
+    "merchant": "Unassigned",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:34:53.393718+00:00"
+   },
+   {
+    "id": 3,
+    "odoo_order_id": 42,
+    "status": "picking",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:35:30.773711+00:00"
+   },
+   {
+    "id": 4,
+    "odoo_order_id": 41,
+    "status": "picking",
+    "merchant": "HomeNest",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:35:30.808222+00:00"
+   },
+   {
+    "id": 1,
+    "odoo_order_id": 44,
+    "status": "delivered",
+    "merchant": "Urban Threads",
+    "carrier": "DHL Express",
+    "tracking_number": "JD0002334455",
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T16:37:21.903499+00:00"
+   },
+   {
+    "id": 46,
+    "odoo_order_id": 46,
+    "status": "received",
+    "merchant": "Urban Threads",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:47:15.674437+00:00",
+    "updated_at": "2026-10-19T16:47:15.674437+00:00"
+   },
+   {
+    "id": 47,
+    "odoo_order_id": 45,
+    "status": "received",
+    "merchant": "Glow Cosmetics",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:55:20.380171+00:00",
+    "updated_at": "2026-10-19T16:55:20.380171+00:00"
+   },
+   {
+    "id": 2,
+    "odoo_order_id": 43,
+    "status": "delivered",
+    "merchant": "Urban Threads",
+    "carrier": null,
+    "tracking_number": null,
+    "created_at": "2026-10-19T16:30:47.159880+00:00",
+    "updated_at": "2026-10-19T17:12:39.194868+00:00"
+   }
+  ],
+  "fulfillment_events": [
+   {
+    "id": 1,
+    "fulfillment_order_id": 1,
+    "from_status": "packed",
+    "to_status": "dispatched",
+    "note": "Dispatched \u00b7 DHL Express \u00b7 JD0002334455",
+    "actor": "op-umar",
+    "created_at": "2026-10-19T16:35:30.449567+00:00"
+   },
+   {
+    "id": 2,
+    "fulfillment_order_id": 2,
+    "from_status": "received",
+    "to_status": "picking",
+    "note": "Bulk advance",
+    "actor": "op-umar",
+    "created_at": "2026-10-19T16:35:30.742349+00:00"
+   },
+   {
+    "id": 3,
+    "fulfillment_order_id": 3,
+    "from_status": "received",
+    "to_status": "picking",
+    "note": "Bulk advance",
+    "actor": "op-umar",
+    "created_at": "2026-10-19T16:35:30.773711+00:00"
+   },
+   {
+    "id": 4,
+    "fulfillment_order_id": 4,
+    "from_status": "received",
+    "to_status": "picking",
+    "note": "Bulk advance",
+    "actor": "op-umar",
+    "created_at": "2026-10-19T16:35:30.808222+00:00"
+   },
+   {
+    "id": 5,
+    "fulfillment_order_id": 1,
+    "from_status": "dispatched",
+    "to_status": "delivered",
+    "note": null,
+    "actor": "op-umar",
+    "created_at": "2026-10-19T16:37:21.903499+00:00"
+   },
+   {
+    "id": 6,
+    "fulfillment_order_id": 5,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 7,
+    "fulfillment_order_id": 6,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 8,
+    "fulfillment_order_id": 7,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 9,
+    "fulfillment_order_id": 8,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 10,
+    "fulfillment_order_id": 9,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 11,
+    "fulfillment_order_id": 10,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 12,
+    "fulfillment_order_id": 11,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 13,
+    "fulfillment_order_id": 12,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 14,
+    "fulfillment_order_id": 13,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 15,
+    "fulfillment_order_id": 14,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 16,
+    "fulfillment_order_id": 15,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 17,
+    "fulfillment_order_id": 16,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 18,
+    "fulfillment_order_id": 17,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 19,
+    "fulfillment_order_id": 18,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 20,
+    "fulfillment_order_id": 19,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 21,
+    "fulfillment_order_id": 20,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 22,
+    "fulfillment_order_id": 21,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 23,
+    "fulfillment_order_id": 22,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 24,
+    "fulfillment_order_id": 23,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 25,
+    "fulfillment_order_id": 24,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 26,
+    "fulfillment_order_id": 25,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 27,
+    "fulfillment_order_id": 26,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 28,
+    "fulfillment_order_id": 27,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 29,
+    "fulfillment_order_id": 28,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 30,
+    "fulfillment_order_id": 29,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 31,
+    "fulfillment_order_id": 30,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 32,
+    "fulfillment_order_id": 31,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 33,
+    "fulfillment_order_id": 32,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 34,
+    "fulfillment_order_id": 33,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 35,
+    "fulfillment_order_id": 34,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 36,
+    "fulfillment_order_id": 35,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 37,
+    "fulfillment_order_id": 36,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 38,
+    "fulfillment_order_id": 37,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 39,
+    "fulfillment_order_id": 38,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 40,
+    "fulfillment_order_id": 39,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 41,
+    "fulfillment_order_id": 40,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 42,
+    "fulfillment_order_id": 41,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 43,
+    "fulfillment_order_id": 42,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 44,
+    "fulfillment_order_id": 43,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 45,
+    "fulfillment_order_id": 44,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:30:47.159880+00:00"
+   },
+   {
+    "id": 47,
+    "fulfillment_order_id": 46,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "odoo-webhook",
+    "created_at": "2026-10-19T16:47:15.674437+00:00"
+   },
+   {
+    "id": 48,
+    "fulfillment_order_id": 47,
+    "from_status": null,
+    "to_status": "received",
+    "note": "Imported from Odoo",
+    "actor": "sync",
+    "created_at": "2026-10-19T16:55:20.380171+00:00"
+   },
+   {
+    "id": 49,
+    "fulfillment_order_id": 2,
+    "from_status": "picking",
+    "to_status": "packed",
+    "note": null,
+    "actor": "tester",
+    "created_at": "2026-10-19T17:00:45.633655+00:00"
+   },
+   {
+    "id": 50,
+    "fulfillment_order_id": 2,
+    "from_status": "packed",
+    "to_status": "dispatched",
+    "note": "Bulk advance",
+    "actor": "tester",
+    "created_at": "2026-10-19T17:00:46.137259+00:00"
+   },
+   {
+    "id": 51,
+    "fulfillment_order_id": 2,
+    "from_status": "dispatched",
+    "to_status": "delivered",
+    "note": null,
+    "actor": "operator",
+    "created_at": "2026-10-19T17:12:39.194868+00:00"
+   }
+  ],
+  "variance_reviews": [
+   {
+    "id": 1,
+    "quant_id": 5,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-16T19:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 2,
+    "quant_id": 11,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-19T20:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 4,
+    "quant_id": 68,
+    "status": "investigated",
+    "note": "Re-count requested for Aisle 4",
+    "actor": "operator",
+    "first_seen_at": "2026-10-15T13:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 5,
+    "quant_id": 72,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-19T17:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 6,
+    "quant_id": 74,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-13T16:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 7,
+    "quant_id": 78,
+    "status": "investigated",
+    "note": "Pallet short vs. ASN; checking with carrier",
+    "actor": "operator",
+    "first_seen_at": "2026-10-17T17:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 8,
+    "quant_id": 80,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-19T06:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 9,
+    "quant_id": 84,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-20T03:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 10,
+    "quant_id": 87,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-20T14:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 11,
+    "quant_id": 90,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-20T17:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 12,
+    "quant_id": 93,
+    "status": "open",
+    "note": null,
+    "actor": null,
+    "first_seen_at": "2026-10-20T20:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:01:31.079843+00:00"
+   },
+   {
+    "id": 3,
+    "quant_id": 64,
+    "status": "open",
+    "note": null,
+    "actor": "admin",
+    "first_seen_at": "2026-10-18T19:01:31.082842+00:00",
+    "updated_at": "2026-10-20T23:03:08.306119+00:00"
+   }
+  ],
+  "inventory_snapshots": [
+   {
+    "id": 1,
+    "health_score": 90.8,
+    "accuracy_pct": 94.3,
+    "open_variances": 5,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-07"
+   },
+   {
+    "id": 2,
+    "health_score": 90.1,
+    "accuracy_pct": 93.6,
+    "open_variances": 5,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-08"
+   },
+   {
+    "id": 3,
+    "health_score": 89.4,
+    "accuracy_pct": 92.9,
+    "open_variances": 5,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-09"
+   },
+   {
+    "id": 4,
+    "health_score": 88.2,
+    "accuracy_pct": 91.7,
+    "open_variances": 6,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-10"
+   },
+   {
+    "id": 5,
+    "health_score": 86.7,
+    "accuracy_pct": 90.2,
+    "open_variances": 7,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-11"
+   },
+   {
+    "id": 6,
+    "health_score": 85.9,
+    "accuracy_pct": 89.4,
+    "open_variances": 7,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-12"
+   },
+   {
+    "id": 7,
+    "health_score": 84.1,
+    "accuracy_pct": 87.6,
+    "open_variances": 9,
+    "critical_variances": 0,
+    "snapshot_date": "2026-10-13"
+   },
+   {
+    "id": 8,
+    "health_score": 82.6,
+    "accuracy_pct": 86.1,
+    "open_variances": 9,
+    "critical_variances": 1,
+    "snapshot_date": "2026-10-14"
+   },
+   {
+    "id": 9,
+    "health_score": 83.4,
+    "accuracy_pct": 86.9,
+    "open_variances": 9,
+    "critical_variances": 1,
+    "snapshot_date": "2026-10-15"
+   },
+   {
+    "id": 10,
+    "health_score": 81.9,
+    "accuracy_pct": 85.4,
+    "open_variances": 11,
+    "critical_variances": 1,
+    "snapshot_date": "2026-10-16"
+   },
+   {
+    "id": 11,
+    "health_score": 82.8,
+    "accuracy_pct": 86.3,
+    "open_variances": 11,
+    "critical_variances": 1,
+    "snapshot_date": "2026-10-17"
+   },
+   {
+    "id": 12,
+    "health_score": 84.3,
+    "accuracy_pct": 87.8,
+    "open_variances": 12,
+    "critical_variances": 2,
+    "snapshot_date": "2026-10-18"
+   },
+   {
+    "id": 13,
+    "health_score": 85.1,
+    "accuracy_pct": 88.6,
+    "open_variances": 13,
+    "critical_variances": 2,
+    "snapshot_date": "2026-10-19"
+   },
+   {
+    "id": 14,
+    "health_score": 86.3,
+    "accuracy_pct": 81.4,
+    "open_variances": 12,
+    "critical_variances": 4,
+    "snapshot_date": "2026-10-20"
+   }
+  ]
+ }
+}
