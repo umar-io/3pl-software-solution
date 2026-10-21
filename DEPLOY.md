@@ -1,10 +1,68 @@
-# Deploying the public demo (Cloud Run + Neon + static frontend)
+# Publishing the demo
 
-The demo runs with `DEMO_MODE=1`: the API serves a **read-only snapshot** of the
-Odoo data (`backend/app/demo/snapshot.json`) instead of calling Odoo, and the only
-public login is a read-only `viewer`. Your local Odoo is never exposed.
+Two ways, both read-only and both safe to share. **A is free and needs no card.**
 
-## 0. Refresh the snapshot (optional)
+## A. Static site (recommended, $0, no backend)
+
+The whole demo is a folder of files: the app plus pre-generated JSON
+(`frontend/public/demo-data/`). The browser applies the same filtering and sorting
+the API would. There is no server, database or login to run or defend, and it never
+sleeps. Your Odoo is not involved.
+
+### 1. (Optional) Refresh the data
+
+Only needed if you changed the seed data. This re-reads your running Odoo, then
+regenerates the JSON from it.
+
+```bash
+# 1. Snapshot Odoo + the local DB
+PYTHONPATH=backend backend/.venv/bin/python scripts/export_demo_snapshot.py
+
+# 2. Replay the snapshot through the real backend code into static JSON
+docker exec odoo-dev-db-1 psql -U odoo -d postgres -c "CREATE DATABASE fulfillment_demo"
+export DEMO_MODE=1 DEMO_VIEWER_PASSWORD=x JWT_SECRET=$(openssl rand -hex 32) \
+       DATABASE_URL=postgresql+psycopg2://odoo:odoo@localhost:5433/fulfillment_demo
+(cd backend && .venv/bin/alembic upgrade head)
+PYTHONPATH=backend backend/.venv/bin/python -m app.demo_seed
+PYTHONPATH=backend backend/.venv/bin/python scripts/export_static_demo.py
+docker exec odoo-dev-db-1 psql -U odoo -d postgres -c "DROP DATABASE fulfillment_demo"
+```
+
+Review `frontend/public/demo-data/` before publishing: it contains the order and
+partner data from your Odoo (currently Odoo's sample contacts plus the seed script's
+fictional customers).
+
+### 2. Build
+
+```bash
+cd frontend
+npm ci
+npm run build:static      # outputs frontend/dist
+```
+
+### 3. Upload `frontend/dist`
+
+Any static host works. Easiest, no CLI and no card:
+
+- **Netlify:** app.netlify.com/drop, then drag the `dist` folder onto the page.
+- **Cloudflare Pages:** create a project and upload the `dist` folder directly.
+
+`dist/_redirects` makes deep links (e.g. `/exceptions?severity=critical`) work.
+
+### Check before sharing
+
+- Open every page on desktop and on a phone.
+- The banner says it is a read-only demo; there is no login and no sign-out button.
+- DevTools → Network: the only external request should be Google Fonts.
+
+## B. Real API on Cloud Run (optional, later)
+
+Needs a Google Cloud billing account (a card, and in some regions a refundable
+prepayment). Only worth it if you want the real JWT login and API running publicly.
+The container, demo mode and `DEMO_MODE` seeding are already built; the steps are
+below.
+
+### B0. Refresh the snapshot (optional)
 
 ```bash
 PYTHONPATH=backend backend/.venv/bin/python scripts/export_demo_snapshot.py
@@ -12,7 +70,7 @@ PYTHONPATH=backend backend/.venv/bin/python scripts/export_demo_snapshot.py
 Review `backend/app/demo/snapshot.json` before committing: it holds order and
 partner data exactly as it is in your Odoo.
 
-## 1. Database: Neon
+### B1. Database: Neon
 
 1. Create a free project at neon.tech and copy the **connection string**
    (it looks like `postgresql://user:pass@ep-xxx.neon.tech/neondb?sslmode=require`).
@@ -20,7 +78,7 @@ partner data exactly as it is in your Odoo.
 3. Nothing to load by hand: the container runs the migrations and seeds the demo
    rows on first boot.
 
-## 2. API: Cloud Run
+### B2. API: Cloud Run
 
 You need a Google Cloud project with **billing enabled** (Cloud Run's free tier
 still requires a card). Create a **budget alert** first (Billing → Budgets) so a
@@ -60,7 +118,7 @@ needs a JWT. Note the service URL it prints, e.g. `https://fulfill-api-xxxx.a.ru
 
 The first request after idle takes ~15 s (cold start + migrations check).
 
-## 3. Frontend: any static host
+### B3. Frontend
 
 ```bash
 cd frontend
@@ -70,14 +128,14 @@ npm ci && npm run build                        # outputs frontend/dist
 Upload `frontend/dist` to Netlify (drag-and-drop), Cloudflare Pages or Firebase
 Hosting. `public/_redirects` already makes deep links work on Netlify/Cloudflare.
 
-## 4. Allow the frontend to call the API
+### B4. Allow the frontend to call the API
 
 ```bash
 gcloud run services update fulfill-api --region us-central1 \
   --update-env-vars CORS_ORIGINS=https://YOUR-FRONTEND-URL
 ```
 
-## Checks before you share the link
+### Checks before you share the link
 
 - Open the site, click **Fill in the demo login**, and visit every page.
 - `curl -i https://YOUR-API/api/inventory/health` → `401` (not data).

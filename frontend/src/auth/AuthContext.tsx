@@ -9,6 +9,7 @@ import {
 } from 'react'
 import { API_BASE, parse } from '../lib/api'
 import { AUTH_EXPIRED_EVENT, authFetch, getToken, setToken } from '../lib/http'
+import { STATIC_DEMO } from '../lib/demo'
 import type { Role } from '../lib/roles'
 
 export interface AuthUser {
@@ -37,9 +38,18 @@ interface AuthValue {
 
 const AuthContext = createContext<AuthValue | null>(null)
 
+const STATIC_VIEWER: AuthUser = {
+  id: 0,
+  email: 'viewer@fulfill.demo',
+  name: 'Demo viewer',
+  role: 'viewer',
+  client: null,
+  permissions: ['inventory:read', 'receiving:read', 'order:read'],
+}
+
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<AuthUser | null>(null)
-  const [booting, setBooting] = useState(() => getToken() !== null)
+  const [user, setUser] = useState<AuthUser | null>(STATIC_DEMO ? STATIC_VIEWER : null)
+  const [booting, setBooting] = useState(() => !STATIC_DEMO && getToken() !== null)
 
   // Restore the session from a stored token.
   useEffect(() => {
@@ -70,6 +80,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const logout = useCallback(() => {
+    if (STATIC_DEMO) return // nothing to sign out of
     setToken(null)
     setUser(null)
   }, [])

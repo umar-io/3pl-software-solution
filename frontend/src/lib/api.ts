@@ -1,4 +1,6 @@
+import { STATIC_DEMO } from './demo'
 import { authFetch } from './http'
+import { READ_ONLY_MESSAGE, staticDemo } from './staticDemo'
 // Override at build time with VITE_API_BASE (e.g. https://my-api.run.app/api).
 export const API_BASE: string =
   import.meta.env.VITE_API_BASE ?? 'http://localhost:8005/api'
@@ -160,11 +162,17 @@ export async function parse<T>(res: Response): Promise<T> {
 }
 
 export async function fetchOrders(params: OrderQuery = {}): Promise<OrderListResponse> {
+  if (STATIC_DEMO) return staticDemo.orders(params)
   const res = await authFetch(`${API_BASE}/orders/${buildQuery(params)}`)
   return parse<OrderListResponse>(res)
 }
 
 export async function fetchOrder(id: number): Promise<OrderDetail> {
+  if (STATIC_DEMO) {
+    return staticDemo.order(id).catch(() => {
+      throw new Error('Order not found')
+    })
+  }
   const res = await authFetch(`${API_BASE}/orders/${id}`)
   return parse<OrderDetail>(res)
 }
@@ -177,6 +185,7 @@ export async function syncOrders(): Promise<{
   skipped: number
   last_synced_at: string
 }> {
+  if (STATIC_DEMO) throw new Error(READ_ONLY_MESSAGE)
   const res = await authFetch(`${API_BASE}/orders/sync`, { method: 'POST' })
   return parse(res)
 }
@@ -186,6 +195,7 @@ export async function updateOrderStatus(
   action: string,
   body: { carrier?: string; tracking_number?: string; actor?: string } = {}
 ): Promise<StatusUpdateResponse> {
+  if (STATIC_DEMO) throw new Error(READ_ONLY_MESSAGE)
   const res = await authFetch(`${API_BASE}/orders/${id}/${action}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
@@ -198,6 +208,7 @@ export async function bulkAdvance(
   ids: number[],
   actor: string
 ): Promise<BulkAdvanceResponse> {
+  if (STATIC_DEMO) throw new Error(READ_ONLY_MESSAGE)
   const res = await authFetch(`${API_BASE}/orders/bulk-advance`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

@@ -1,5 +1,7 @@
 import { API_BASE, parse } from './api'
 import { authFetch } from './http'
+import { STATIC_DEMO } from './demo'
+import { READ_ONLY_MESSAGE, staticDemo } from './staticDemo'
 import type {
   BreakdownResponse,
   HealthResponse,
@@ -35,20 +37,27 @@ async function get<T>(path: string, signal?: AbortSignal): Promise<T> {
 }
 
 export const inventoryApi = {
-  health: (signal?: AbortSignal) => get<HealthResponse>('/health', signal),
+  health: (signal?: AbortSignal) =>
+    STATIC_DEMO ? staticDemo.health() : get<HealthResponse>('/health', signal),
 
   variances: (params: VarianceQuery, signal?: AbortSignal) =>
-    get<VarianceListResponse>(`/variances${query(params)}`, signal),
+    STATIC_DEMO
+      ? staticDemo.variances(params)
+      : get<VarianceListResponse>(`/variances${query(params)}`, signal),
 
   breakdown: (groupBy: 'client' | 'location', signal?: AbortSignal) =>
-    get<BreakdownResponse>(`/breakdown${query({ group_by: groupBy })}`, signal),
+    STATIC_DEMO
+      ? staticDemo.breakdown(groupBy)
+      : get<BreakdownResponse>(`/breakdown${query({ group_by: groupBy })}`, signal),
 
-  receiving: (signal?: AbortSignal) => get<ReceivingResponse>('/receiving', signal),
+  receiving: (signal?: AbortSignal) =>
+    STATIC_DEMO ? staticDemo.receiving() : get<ReceivingResponse>('/receiving', signal),
 
   async review(
     id: number,
     body: { status: ReviewStatus; note?: string }
   ): Promise<Variance> {
+    if (STATIC_DEMO) throw new Error(READ_ONLY_MESSAGE)
     const res = await authFetch(`${BASE}/variances/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
@@ -61,6 +70,7 @@ export const inventoryApi = {
     id: number,
     body: { expected: number; counted: number; reason: string }
   ): Promise<{ quantity_before: number; quantity_after: number; chatter_posted: boolean }> {
+    if (STATIC_DEMO) throw new Error(READ_ONLY_MESSAGE)
     const res = await authFetch(`${BASE}/variances/${id}/adjust`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -70,6 +80,10 @@ export const inventoryApi = {
   },
 
   async sync(): Promise<{ last_synced_at: string; score: number }> {
+    if (STATIC_DEMO) {
+      const health = await staticDemo.health()
+      return { last_synced_at: health.last_synced_at, score: health.score }
+    }
     const res = await authFetch(`${BASE}/sync`, { method: 'POST' })
     return parse(res)
   },

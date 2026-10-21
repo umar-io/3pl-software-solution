@@ -12,7 +12,8 @@ import { useAsync } from '../hooks/useAsync'
 import { useNow } from '../hooks/useNow'
 import { useSyncAction } from '../hooks/useSyncAction'
 import { inventoryApi } from '../lib/inventoryApi'
-import { HEALTH_LABEL, HEALTH_TONE, formatPct, timeAgo } from '../lib/inventoryFormat'
+import { STATIC_DEMO } from '../lib/demo'
+import { HEALTH_LABEL, HEALTH_TONE, formatPct, formatShortDate, timeAgo } from '../lib/inventoryFormat'
 
 const POLL_MS = 60_000
 
@@ -104,9 +105,13 @@ export function DashboardPage() {
                 to="/exceptions?since_days=7"
               />
               <StatTile
-                label="Last Odoo sync"
-                value={timeAgo(data.last_synced_at, now).replace(' ago', '')}
-                hint={`${data.summary.lines_tracked} stock lines pulled`}
+                label={STATIC_DEMO ? 'Data snapshot' : 'Last Odoo sync'}
+                value={
+                  STATIC_DEMO
+                    ? formatShortDate(data.last_synced_at)
+                    : timeAgo(data.last_synced_at, now).replace(' ago', '')
+                }
+                hint={`${data.summary.lines_tracked} stock lines ${STATIC_DEMO ? 'in the snapshot' : 'pulled'}`}
                 icon={RefreshCcw}
                 tone="neutral"
               />

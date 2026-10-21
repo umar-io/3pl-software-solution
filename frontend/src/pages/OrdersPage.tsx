@@ -16,6 +16,7 @@ import { SlaBadge } from '../components/SlaBadge'
 import { formatDateTime, formatMoney, slaLevel } from '../lib/format'
 import { StatusBadge } from '../components/StatusBadge'
 import { useRole } from '../auth/AuthContext'
+import { STATIC_DEMO } from '../lib/demo'
 
 const PAGE_SIZE = 10
 const DEFAULT_MERCHANT = 'Glow Cosmetics'
@@ -252,6 +253,7 @@ export function OrdersPage() {
           <button className="btn" type="button" onClick={exportCsv} disabled={loading}>
             Export CSV
           </button>
+          {!STATIC_DEMO && (
           <button
             className="btn btn-primary"
             type="button"
@@ -261,6 +263,7 @@ export function OrdersPage() {
           >
             {working ? 'Working…' : 'Sync from Odoo'}
           </button>
+          )}
         </div>
       </div>
 

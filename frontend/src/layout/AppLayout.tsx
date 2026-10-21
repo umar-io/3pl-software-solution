@@ -13,7 +13,7 @@ import {
 import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useRole } from '../auth/AuthContext'
-import { DEMO } from '../lib/demo'
+import { DEMO, STATIC_DEMO } from '../lib/demo'
 import { ROLE_LABELS } from '../lib/roles'
 
 interface NavItem {
@@ -147,6 +147,7 @@ export function AppLayout() {
               {user && (user.client ?? ROLE_LABELS[user.role])}
             </div>
           </div>
+          {!STATIC_DEMO && (
           <button
             type="button"
             onClick={logout}
@@ -156,11 +157,12 @@ export function AppLayout() {
           >
             <LogOut size={16} />
           </button>
+          )}
         </div>
       </aside>
 
       <main className="lg:pl-60">
-        {DEMO && (
+        {(DEMO || STATIC_DEMO) && (
           <div className="border-b border-amber-200 bg-amber-50 px-4 py-2 text-center text-[13px] text-amber-900">
             <b>Demo</b> · read-only snapshot of sample Odoo data. Nothing here is real.
           </div>

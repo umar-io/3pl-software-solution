@@ -1,5 +1,7 @@
 import { RefreshCw } from 'lucide-react'
 import { useNow } from '../../hooks/useNow'
+import { STATIC_DEMO } from '../../lib/demo'
+import { formatShortDate } from '../../lib/inventoryFormat'
 import { timeAgo } from '../../lib/inventoryFormat'
 
 const STALE_AFTER_MS = 10 * 60 * 1000
@@ -14,6 +16,17 @@ export function SyncIndicator({
   onRefresh: () => void
 }) {
   const now = useNow()
+  if (STATIC_DEMO) {
+    return (
+      <div className="flex items-center gap-2 text-sm text-slate-500">
+        <span className="h-2 w-2 rounded-full bg-slate-300" />
+        <span>
+          Demo snapshot
+          {syncedAt && <span className="font-medium text-slate-700"> · {formatShortDate(syncedAt)}</span>}
+        </span>
+      </div>
+    )
+  }
   const stale = syncedAt ? now - new Date(syncedAt).getTime() > STALE_AFTER_MS : false
 
   return (
